@@ -1,0 +1,45 @@
+\documentclass[12pt,a4paper,twoside,titlepage]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{tabularx}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{soul}
+\usepackage[marginparsep=-1.8cm]{geometry}
+\chapterstyle{section}
+%\setcounter{chapter}{+1}
+%\counterwithout{section}{chapter}
+
+\title{E(x\textbar g)o: Comparing Visual Perspectives on Guidance Visualisations for Motor Learning in Virtual Reality}
+\author{Stefan Paul Feyer\\
+	\textit{HCI Group, University of Konstanz}
+	\and
+	Maximilian Dürr\\
+	\textit{Supervisor}
+}
+\date{Master's Project Report\\March 2020}
+
+
+\begin{document}
+	\maketitle
+	
+	%\reversemarginpar%maring left
+	\frontmatter
+	\tableofcontents
+	\mainmatter
+	\include{abstract}
+	\include{introduction}
+	\include{technologyEvaluation}
+	\include{implementation}
+	\include{finalSystem}
+	\include{conclusion}
+	\backmatter
+	\bibliography{bib/lit}
+	\bibliographystyle{plain}
+	\listoffigures
+	\listoftables
+\end{document}

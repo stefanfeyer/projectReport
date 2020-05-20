@@ -1,0 +1,30 @@
+\chapter{Technology Evaluation}
+The hardware setting consists out of three main parts. First an Virtual Reality Head Mounted Display which serves as the window to the virtual world for the participant. Secondly, a motion capturing system, which serves as translation of the real world movements in the virtual world. Thirdly, the assets with which the participant of the study will interact with. This chapter discusses the requirements these three aspects have to fulfil to have a reliable and suitable study design.\\ 
+In the early stages of planning a study, it is very important to choose the hardware wisely. The hardware is the base on which the software is build up and both needs to fulfil requirements to be usable in a study. For example the accuracy must be high enough to measure what want to be measured and also it must be as reliable as possible, to not disrupt the study procedure. For this reason hard and software were analysed. The hardware components are the HMD, Motion Tracking devices and the assets the participant will interact with and for the software, an engine and its plugins.
+\section{Hardware}
+\subsection{HMD}
+In 2013, the first next generation HMD was on market for sale. The Oculus Rift DK1 had given the first glimpse on what will be possible with this new Virtual Reality headsets. The next big step was the evolution of graphics cards and with the GTX 1080 released in May 2016, enough graphics power was widely available to run state of the art head sets. Since then, more and more headsets of multiple companies made it to market maturity and today we are spoilt of choice. Meanwhile there are many headsets that fulfil the requirements to teach motor learning in virtual reality. They are fast, exact, have plenty of pixels with reasonable refresh rates and a wide field of view. But they differ in the tracking technology used to identify they position and orientation in space, as well as other aspects like the information transfer to an pc or the possibility of wearing glasses beneath it. The possibility to wear glasses beneath the head mounted display is important, because no one is excluded to participate in the study for the reason wearing glasses. For this project the cable does not play a big role. Since all headsets worth considering fulfil the requirements to conduct a study on motor learning, the decision was mostly made from the possibility to wear glasses and having the same coordinate system then the motion tracking technology, which guarantees easier and a more stable environment. The Valve Index headset currently has with the best performance and fulfils the additional requirements. Though the choice here was easy\footnote{Meanwhile the Pimax 8K is on sale. From a technical view this is a headset outperforming the Valve Index. A test of this hardware is planned and if it proves to be suitable the study will be conducted with the Pimax 8K}. A small comparison of VR HMDs can be found in Table %yxc comparison hmds
+\subsection{Motion Tracking}
+In contrast to the VR HMD, the choice for motion tracking hardware more difficult.\\
+
+The requirements for the motion capturing system are as follows: 
+\begin{itemize}
+	\item \textbf{Accuracy}: to compare movements, the accuracy should be under 1cm
+	\item \textbf{Large movement area}: motor learning includes movement in space. The tracked area should be at least 20qm
+	\item \textbf{Capable for humanoid movements}: tracking of objects and movement differ fundamentally. For motor learning, humanoid movements are necessary.
+	\item \textbf{Freedom of movements}: during motor learning, a human can move in all directions and all possible postures conceivable. The motion tracking system must cover this.
+	\item \textbf{Sufficient tracking points}: for measuring movements, enough tracking points must be provided for comparing the movements.
+	\item \textbf{Extendable}: assets must be able to be tracked as well.
+	\item \textbf{Reliable, study safe setup}: jitter or calibration loss can void a study.
+	\item \textbf{No coordinate system matching}: matching of different coordinate system for e.g. HMD and the human body is an error source which should be excluded.
+\end{itemize}
+There are two main classes of motion tracking systems: inside-out and outside in. Both of them have pros and cons. Inside-out tracking uses active sensors on the body to track. Perception Neuron \footnote{yxc} uses the magnetic field of the earth to identify position and orientation changes. But magnetic sensors are prone to metal. Other systems \footnote{yxc} use accelerometer or gyroscopes or a combination to track the movements. But there is still the drift problem: a position is determined by the previous position and the error adds on the error before. The longer the capturing, the greater the error. On the plus side, the tracked area is potentially infinite and the sensors are rather small. On the other side, outside-in tracking system use external tracking devices to track points on the body in question. These systems deliver an absolute position and orientation in the tracking space and do not have the drift issue. If accuracy is the measurement in question, inside-out tracking systems are always second to outside-in tracking systems. For this reason, in the following only outside-in tracking systems are discussed. %yxc comparison/table?img
+\subsubsection{Kinect}
+Microsoft Kinect 2.0 is the successor of the 1.0 version released in 2014. It uses a RGB camera and an IR camera to calculate a skeleton of a human body in front of it. It is very easy to setup and use. Also the tracking area is large enough. But the participant needs to face the Kinect at all time to have a reliable, jitter free tracking. An evaluation of the Kinect 2.0 revealed that it is not suitable for motor learning. Compare test video: %yxc.
+\subsubsection{OptiTrack}
+OptiTrack is an optical motion tracking system. Multiple infrared cameras track reflective markers on the human body, calculating a skeleton.
+\subsubsection{Vive Tracker}
+\subsection{Assets}
+baseplates, box, table
+\section{Software}
+%unity vs. unreal, SteamVR, ik
