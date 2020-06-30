@@ -1,11 +1,32 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: masters_project.aux
 A level-1 auxiliary file: abstract.aux
 A level-1 auxiliary file: introduction.aux
-A level-1 auxiliary file: hardware.aux
-A level-1 auxiliary file: software.aux
-A level-1 auxiliary file: finalSystem.aux
+A level-1 auxiliary file: technologyEvaluation.aux
+A level-1 auxiliary file: implementation.aux
+A level-1 auxiliary file: outlook.aux
 A level-1 auxiliary file: conclusion.aux
 The style file: plain.bst
-I found no \citation commands---while reading file masters_project.aux
 Database file #1: bib/lit.bib
-(There was 1 error message)
+Repeated entry---line 533 of file bib/lit.bib
+ : @article{Hachimura2004
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 666 of file bib/lit.bib
+ : @article{Yan2015
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 674 of file bib/lit.bib
+ : @article{Chan2010
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 684 of file bib/lit.bib
+ : @article{Han2016
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 721 of file bib/lit.bib
+ : @article{Sodhi2012
+ :                   ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Chua
+Warning--empty year in Chua
+(There were 5 error messages)

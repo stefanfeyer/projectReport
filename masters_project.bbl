@@ -1,3 +1,143 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
+
+\bibitem{Chan2010}
+J~C~P Chan, H~Leung, J~K~T Tang, and T~Komura.
+\newblock {A Virtual Reality Dance Training System Using Motion Capture
+  Technology}.
+\newblock {\em IEEE Transactions on Learning Technologies}, 4(2):187--195, apr
+  2010.
+
+\bibitem{Chinthammit2014}
+Winyu Chinthammit, Troy Merritt, Pedersen Scott, Williams Andrew, Visentin
+  Denis, Robert Rowe, and Furness Thomas.
+\newblock {Ghostman: Augmented Reality Application for Telerehabilitation and
+  Remote Instruction of a Novel Motor Skill}.
+\newblock {\em BioMed Research International}, 2014, 2014.
+
+\bibitem{Chua}
+Philo~Tan Chua and Russ Schaaf.
+\newblock {Training for Physical Tasks in Virtual Environments : Tai Chi}.
+
+\bibitem{Covaci2014}
+Alexandra Covaci, Anne-H{\'{e}}l{\`{e}}ne Olivier, and Franck Multon.
+\newblock {Third Person View and Guidance for More Natural Motor Behaviour in
+  Immersive Basketball Playing}.
+\newblock In {\em Proceedings of the 20th ACM Symposium on Virtual Reality
+  Software and Technology}, VRST '14, pages 55--64, New York, NY, USA, 2014.
+  ACM.
+
+\bibitem{Hachimura2004}
+K~Hachimura, H~Kato, and H~Tamura.
+\newblock {A prototype dance training support system with motion capture and
+  mixed reality technologies}.
+\newblock In {\em RO-MAN 2004. 13th IEEE International Workshop on Robot and
+  Human Interactive Communication (IEEE Catalog No.04TH8759)}, pages 217--222,
+  2004.
+
+\bibitem{Han2016}
+Ping-Hsuan Han, Kuan-Wen Chen, Chen-Hsin Hsieh, Yu-Jie Huang, and Yi-Ping Hung.
+\newblock {AR-Arm: Augmented Visualization for Guiding Arm Movement in the
+  First-Person Perspective}.
+\newblock In {\em Proceedings of the 7th Augmented Human International
+  Conference 2016}, AH '16, pages 31:1----31:4, New York, NY, USA, 2016. ACM.
+
+\bibitem{Han2017}
+Ping-Hsuan Han, Yang-Sheng Chen, Yilun Zhong, Han-Lei Wang, and Yi-Ping Hung.
+\newblock {My Tai-Chi Coaches: An Augmented-learning Tool for Practicing
+  Tai-Chi Chuan}.
+\newblock In {\em Proceedings of the 8th Augmented Human International
+  Conference}, AH '17, pages 25:1----25:4, New York, NY, USA, 2017. ACM.
+
+\bibitem{Hoang2016}
+Thuong~N Hoang, Martin Reinoso, Frank Vetere, and Egemen Tanin.
+\newblock {Onebody: Remote Posture Guidance System Using First Person View in
+  Virtual Environment}.
+\newblock In {\em Proceedings of the 9th Nordic Conference on Human-Computer
+  Interaction}, NordiCHI '16, pages 25:1----25:10, New York, NY, USA, 2016.
+  ACM.
+
+\bibitem{Katzakis2017}
+Nicholas Katzakis, Jonathan Tong, Oscar Ariza, Lihan Chen, Gudrun Klinker,
+  Brigitte R{\"{o}}der, and Frank Steinicke.
+\newblock {Stylo and Handifact: Modulating Haptic Perception Through
+  Visualizations for Posture Training in Augmented Reality}.
+\newblock In {\em Proceedings of the 5th Symposium on Spatial User
+  Interaction}, SUI '17, pages 58--67, New York, NY, USA, 2017. ACM.
+
+\bibitem{Kojima2014}
+Taihei Kojima, Atsushi Hiyama, Takahiro Miura, and Michitaka Hirose.
+\newblock {Training Archived Physical Skill through Immersive Virtual
+  Environment}.
+\newblock In Sakae Yamamoto, editor, {\em Human Interface and the Management of
+  Information. Information and Knowledge in Applications and Services}, pages
+  51--58, Cham, 2014. Springer International Publishing.
+
+\bibitem{Komura2006}
+Taku Komura, Beta Lam, R~W~H Lau, and Howard Leung.
+\newblock {e-Learning Martial Arts}.
+\newblock {\em Lncs}, 4181:239--248, 2006.
+
+\bibitem{Lieberman2007}
+J~Lieberman and C~Breazeal.
+\newblock {TIKL: Development of a Wearable Vibrotactile Feedback Suit for
+  Improved Human Motor Learning}.
+\newblock {\em IEEE Transactions on Robotics}, 23(5):919--926, oct 2007.
+
+\bibitem{Rajanna2015}
+Vijay Rajanna, Patrick Vo, Jerry Barth, Matthew Mjelde, Trevor Grey, Cassandra
+  Oduola, and Tracy Hammond.
+\newblock {KinoHaptics: An Automated, Wearable, Haptic Assisted,
+  Physio-therapeutic System for Post-surgery Rehabilitation and Self-care}.
+\newblock {\em Journal of Medical Systems}, 40(3):60, dec 2015.
+
+\bibitem{Scavo2015}
+Giuseppe Scavo, Fridolin Wild, and Peter Scott.
+\newblock {No Title}.
+\newblock In {\em Workshop Proceedings of the 11th International Conference on
+  Intelligent Environments}, pages 236--243, 2015.
+
+\bibitem{Sodhi2012}
+Rajinder Sodhi, Hrvoje Benko, and Andrew Wilson.
+\newblock {LightGuide: Projected Visualizations for Hand Movement Guidance}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '12, pages 179--188, New York, NY, USA, 2012. ACM.
+
+\bibitem{Sousa2016}
+Maur$\backslash$'$\backslash$icio Sousa, Jo{\~{a}}o Vieira, Daniel Medeiros,
+  Artur Arsenio, and Joaquim Jorge.
+\newblock {SleeveAR: Augmented Reality for Rehabilitation Using Realtime
+  Feedback}.
+\newblock In {\em Proceedings of the 21st International Conference on
+  Intelligent User Interfaces}, IUI '16, pages 175--185, New York, NY, USA,
+  2016. ACM.
+
+\bibitem{Tang2015}
+Richard Tang, Xing-Dong Yang, Scott Bateman, Joaquim Jorge, and Anthony Tang.
+\newblock {Physio@Home: Exploring Visual Guidance and Feedback Techniques for
+  Physiotherapy Exercises}.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing Systems}, CHI '15, pages 4123--4132, New York, NY, USA,
+  2015. ACM.
+
+\bibitem{Velloso2013}
+Eduardo Velloso, Andreas Bulling, and Hans Gellersen.
+\newblock {MotionMA: Motion Modelling and Analysis by Demonstration}.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, CHI '13, pages 1309--1318, New York, NY, USA, 2013. ACM.
+
+\bibitem{Yan2015}
+Shuo Yan, Gangyi Ding, Zheng Guan, Ningxiao Sun, Hongsong Li, and Longfei
+  Zhang.
+\newblock {OutsideMe: Augmenting Dancer's External Self-Image by Using A Mixed
+  Reality System}.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference Extended
+  Abstracts on Human Factors in Computing Systems}, CHI EA '15, pages 965--970,
+  New York, NY, USA, 2015. ACM.
+
+\bibitem{Yang2002}
+Ungyeon Yang and Gerard~Jounghyn Kim.
+\newblock {Implementation and Evaluation of "Just Follow Me": An Immersive,
+  VR-Based, Motion-Training System}.
+\newblock {\em Presence}, 11(No. 3):304--323, 2002.
 
 \end{thebibliography}

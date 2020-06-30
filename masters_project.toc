@@ -1,44 +1,45 @@
-\contentsline {chapter}{Contents}{i}%
-\contentsline {chapter}{\chapternumberline {1}Introduction}{3}%
-\contentsline {section}{\numberline {1.1}Introduction}{3}%
-\contentsline {chapter}{\chapternumberline {2}Technology Evaluation}{5}%
-\contentsline {section}{\numberline {2.1}Hardware}{5}%
-\contentsline {subsection}{HMD}{5}%
-\contentsline {subsection}{Motion Tracking}{6}%
-\contentsline {subsubsection}{Kinect}{7}%
-\contentsline {subsubsection}{OptiTrack}{7}%
-\contentsline {subsubsection}{Vive Tracker}{7}%
-\contentsline {subsection}{Assets}{7}%
-\contentsline {section}{\numberline {2.2}Software}{7}%
-\contentsline {chapter}{\chapternumberline {3}Implementation}{9}%
-\contentsline {section}{\numberline {3.1}Hardware}{9}%
-\contentsline {subsubsection}{Lighthouse}{9}%
-\contentsline {subsubsection}{VR HMD: Valve Index}{10}%
-\contentsline {subsubsection}{Vive Tracker 2}{10}%
-\contentsline {subsubsection}{Vive Tracker Mounts}{10}%
-\contentsline {subsubsection}{PC}{10}%
-\contentsline {subsubsection}{OptiTrack suit}{10}%
-\contentsline {subsubsection}{Box \& Table}{11}%
-\contentsline {section}{\numberline {3.2}Software}{11}%
-\contentsline {subsection}{SteamVR Principles}{11}%
-\contentsline {subsection}{FinalIK Principles}{11}%
-\contentsline {subsection}{VRIK}{11}%
-\contentsline {subsection}{Vive Tracker Matching}{11}%
-\contentsline {subsection}{VRIK Calibration}{12}%
-\contentsline {subsection}{Student Rendering}{13}%
-\contentsline {subsection}{Teacher Rendering}{14}%
-\contentsline {subsection}{Assets Rendering}{15}%
-\contentsline {subsection}{Recording of Movements}{16}%
-\contentsline {subsection}{Resize}{17}%
-\contentsline {section}{\numberline {3.3}Visual Perspectives}{18}%
-\contentsline {subsection}{Ego-Centric}{18}%
-\contentsline {subsection}{Exo-Centric}{19}%
-\contentsline {subsection}{Ego-Centric \& Exo-Centric}{20}%
-\contentsline {subsection}{Augmented Exo-Centric}{20}%
-\contentsline {chapter}{\chapternumberline {4}Final System}{21}%
-\contentsline {section}{\numberline {4.1}fs}{21}%
-\contentsline {chapter}{\chapternumberline {5}Conclusion}{23}%
-\contentsline {section}{\numberline {5.1}concl}{23}%
-\contentsline {chapter}{Bibliography}{25}%
-\contentsline {chapter}{List of Figures}{25}%
-\contentsline {chapter}{List of Tables}{25}%
+\contentsline {chapter}{Contents}{i}% 
+\contentsline {chapter}{\chapternumberline {1}Introduction}{3}% 
+\contentsline {section}{\numberline {1.1}Introduction}{3}% 
+\contentsline {chapter}{\chapternumberline {2}Technology Evaluation}{7}% 
+\contentsline {section}{\numberline {2.1}Hardware}{7}% 
+\contentsline {subsection}{HMD}{7}% 
+\contentsline {subsection}{Motion Tracking}{8}% 
+\contentsline {subsubsection}{Kinect}{9}% 
+\contentsline {subsubsection}{OptiTrack}{10}% 
+\contentsline {subsubsection}{Vive Tracker}{11}% 
+\contentsline {subsection}{Assets}{11}% 
+\contentsline {section}{\numberline {2.2}Software}{11}% 
+\contentsline {chapter}{\chapternumberline {3}Implementation}{13}% 
+\contentsline {section}{\numberline {3.1}Hardware}{13}% 
+\contentsline {subsubsection}{Lighthouse}{14}% 
+\contentsline {subsubsection}{VR HMD: Valve Index}{14}% 
+\contentsline {subsubsection}{Vive Tracker 2}{15}% 
+\contentsline {subsubsection}{Vive Tracker Mounts}{15}% 
+\contentsline {subsubsection}{PC}{16}% 
+\contentsline {subsubsection}{OptiTrack suit}{16}% 
+\contentsline {subsubsection}{Box \& Table}{16}% 
+\contentsline {section}{\numberline {3.2}Software}{18}% 
+\contentsline {subsection}{SteamVR Principles}{18}% 
+\contentsline {subsection}{FinalIK Principles}{18}% 
+\contentsline {subsection}{VRIK}{18}% 
+\contentsline {subsection}{Vive Tracker Matching}{18}% 
+\contentsline {subsection}{VRIK Calibration}{19}% 
+\contentsline {subsection}{Student Rendering}{20}% 
+\contentsline {subsection}{Teacher Rendering}{21}% 
+\contentsline {subsection}{Assets Rendering}{22}% 
+\contentsline {subsection}{Recording of Movements}{23}% 
+\contentsline {subsection}{Resize}{23}% 
+\contentsline {section}{\numberline {3.3}Visual Perspectives}{24}% 
+\contentsline {subsection}{Ego-Centric}{24}% 
+\contentsline {subsection}{Exo-Centric}{26}% 
+\contentsline {subsection}{Ego-Centric \& Exo-Centric}{27}% 
+\contentsline {subsection}{Augmented Exo-Centric}{27}% 
+\contentsline {chapter}{\chapternumberline {4}Outlook}{29}% 
+\contentsline {section}{\numberline {4.1}whats up next}{29}% 
+\contentsline {section}{\numberline {4.2}Evaluation}{29}% 
+\contentsline {chapter}{\chapternumberline {5}Conclusion}{31}% 
+\contentsline {section}{\numberline {5.1}concl}{31}% 
+\contentsline {chapter}{Bibliography}{33}% 
+\contentsline {chapter}{List of Figures}{35}% 
+\contentsline {chapter}{List of Tables}{36}% 

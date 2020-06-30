@@ -1,14 +1,24 @@
 \addvspace {10pt}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The four perspectives the system will be capable of. Human figure taken from thenounproject.com, accessed: 19.06.2020. Icon: created by Ghan Khoon Lay from Noun Project.}}{5}% 
 \addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison of VR HMDs. Sources: developer.oculus.com/design/oculus-device-specs/, www.pimax.com/pages/pimax-8k-series, www.vive.com/eu/product/vive-pro/, www.valvesoftware.com/de/index/headset, all accessed: 19.06.2020 }}{8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces OptiTrack data flow and calibration process.}}{10}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Vive Tracker data flow and calibration process.}}{10}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces }}{12}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces }}{12}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces }}{13}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces }}{14}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces }}{14}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces asset rendering pipeline}}{15}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces asset rendering pipeline}}{16}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces asset rendering pipeline}}{17}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Teachers animation speed, linear interpolated. yxc add axis names}}{19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces setup}}{13}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Light House 2.0}}{14}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Vive Tracker}}{15}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 3D printed Vive Tracker Mounts with Velcro.}}{16}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces OptiTrack Suit. Good for developing because of its Velcro surface.}}{17}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Box and table with Vive Tracker. Both shoes in the middle.}}{17}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{18}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces }}{19}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces }}{20}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces }}{21}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces }}{21}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces asset rendering pipeline}}{22}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces asset rendering pipeline}}{23}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces asset rendering pipeline}}{24}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Teachers animation speed, linear interpolated. yxc add axis names}}{26}% 
 \addvspace {10pt}
 \addvspace {10pt}

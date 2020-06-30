@@ -1,15 +1,14 @@
 \chapter{Implementation}
-%glossar
-%HMD
-%Lighthouse
-%vivetracker
-%position 
-%orientation
-
 
 \section{Hardware}
+\ref{fig:setup}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/setup.png}
+	\caption{setup}
+	\label{fig:setup}
+\end{figure}
 The first step regarding the implementation is to prepare the hardware. The main elements are:
-%<yx setup img
 \begin{itemize}
 	\item 4x Lighthouse 2
 	\item VR HMD: Valve Index
@@ -21,23 +20,59 @@ The first step regarding the implementation is to prepare the hardware. The main
 	\item Box
 \end{itemize}
 \subsubsection{Lighthouse}
-%yxc image of the lighthouse base station
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/lh.jpg}
+	\caption{Light House 2.0}
+	\label{fig:lh}
+\end{figure}
+\ref{fig:lh}
 %if needed, elaborate more about the funtionality of the lighthous
 The so called \textit{Lighthouse 2} by Valve, also called \textit{Base Stations} are rectangular boxes in size of 7,5x7,5x6 cm. They emit a fast moving laser beam. With two base stations, the HMD, Vive Trackers and Controller can determine the exact position and orientation in 3D space in real time. The Lighthouse enables E(x\textbar g)o to track all actors. The setting includes 4 Base Stations in each corner of the the tracked volume. Two Base Stations would be enough to track the actor in the volume, but since the system is optical it is prone to occlusion. To overcome this issue, 4 Base Stations are used. Compare yxc.
 \subsubsection{VR HMD: Valve Index}
 The Valve Index VR HMD let the user dive into the Virtual World. The user wears this HMD on the head. The HMD utilises the Lighthouse to determine its position and orientation in the tracking volume. The Valve Index is cable bound and transmits its data (for example internal gyroscope data) via USB to the PC. The PC transmits the visual information to the HMD via Display Port. Finally, the HMD needs a power supply. All connection is transferred by a single cable that spreads at the end. Compare yxc
 
 \subsubsection{Vive Tracker 2}
-%yxc image of vive tracker
-%Compare yxc
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/singleViveTracker.jpg}
+	\caption{Vive Tracker}
+	\label{fig:singleViveTracker}
+\end{figure}
+\ref{fig:singleViveTracker}
 Vive Tracker 2 are star shaped elements, that utilise the Lighthouse to determine its position and orientation in the tracking volume. The Vive Tracker 2 transmits its data via Bluetooth. For each Vive Tracker a special dongle mus be plugged in the PC on a USB port.
+
 \subsubsection{Vive Tracker Mounts}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/trackerMount.jpg}
+	\caption{3D printed Vive Tracker Mounts with Velcro.}
+	\label{fig:singleViveTracker}
+\end{figure}
+\ref{fig:trackerMount}
 The Vive Tracker must be attachable to objects the the user. For this purpose mounts in two different sizes were manufactured by a 3D printer. The mounts are rather high in size which leads to wobbly behaviour. For the study a flatter design is more advisable. Compare yxc old mount and new mount. The mounts are fixated by a M6 screw to the Vive Tracker. On the backside of the mounts Velcro is attached.
+
 \subsubsection{PC}
-The PC must be capable of handling the VR HMD. The main bottleneck is the graphics card. The used PCs graphic card is a GTX 2080. The PC must be connected to the HMD. Furhtermore, the PC must provide enough USB Ports for HMD, periphery devices, one per Vive Tracker. %compare yxc
+The PC must be capable of handling the VR HMD. The main bottleneck is the graphics card. The used PCs graphic card is a GTX 2080. The PC must be connected to the HMD. Furhtermore, the PC must provide enough USB Ports for HMD, periphery devices, one per Vive Tracker, but better not more than two per USB controller, see pitfalls yxc.
+
 \subsubsection{OptiTrack suit}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/otsuit.jpg}
+	\caption{OptiTrack Suit. Good for developing because of its Velcro surface.}
+	\label{fig:otsuit}
+\end{figure}
+\ref{fig:otsuit}
 During the development of such a system, a highly flexible setup is advisable to adjust the hardware easily. The surface OptiTrack suit is completely covered by Velcro. The counterpart is attached to the Vive Tracker which allows to rearrange the Vive Tracker fast and easy. For the final study setting, special fixation system could be provided for more comfort. Furthermore, the Vive Trackers need to be alinged always the same way. The suit helps with this issue, too.
+
 \subsubsection{Box \& Table}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/box_table.jpg}
+	\caption{Box and table with Vive Tracker. Both shoes in the middle.}
+	\label{fig:box_table}
+\end{figure}
+\ref{fig:box_table}
 For developing a cardboard box was used. On the box, a Vive Tracker is fixated. Same goes with the table. With these Vive Trackers, the box and table can be made visible in the software, allowing the user to interact with. %yxc img box and table
 
 \section{Software}
