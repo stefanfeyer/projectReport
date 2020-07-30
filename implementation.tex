@@ -7,7 +7,7 @@
 	\caption{Vive Tracker matching. Left: reference holding all Objects to be transformed by a tracker, middle: device ID list, right script which reads the hardware IDs and sets the device IDs.}
 	\label{fig:viveTrackerMatching}
 \end{figure}
-In Unity, a Vive Trackers position and orientation can be assigned to a GameObject with the script\textit{SteamVRTrackedObject} compare figure \ref{fig:viveTrackerMatching} middle. In this script a device ID is used to be associated with a physical Vive Tracker. Unfortunately, every time SteamVR driver is started, the device IDs change. For example device ID 1 was associated with the Vive Tracker placed on the left feet of the user. On the next startup, device ID 1 can be associated with lighthouse base station. This leads to no study safe setup and must be corrected. To solve this issue, first all device hardware IDs of the used devices must be read out. The device IDs per tracker label in use are:
+In Unity, a Vive Trackers position and orientation can be assigned to a GameObject with the script \textit{SteamVRTrackedObject} compare figure \ref{fig:viveTrackerMatching} middle. In this script a device ID is used to be associated with a physical Vive Tracker. Unfortunately, every time SteamVR driver is started, the device IDs change. For example device ID 1 was associated with the Vive Tracker placed on the left feet of the user. On the next startup, device ID 1 can be associated with Lighthouse base station. This leads to no study-safe setup and must be corrected. To solve this issue, first all device hardware IDs of the used devices must be read out. The device IDs per tracker label in use are:
 \begin{itemize}
 	\item[B1:] LHR-67E402D1 Hip
 	\item[B3:] LHR-32C38603 RFoot
@@ -23,29 +23,29 @@ Secondly, the hardware id must be matched to specific devices. Then, at the star
 for(uint i = 0; i < 16; i++){
  ETrackedPropertyError error = new ETrackedPropertyError();
  StringBuilder sb = new StringBuilder();
- 
+
  OpenVR.System.GetStringTrackedDeviceProperty(i,
   ETrackedDeviceProperty.Prop_SerialNumber_String, 
   sb, OpenVR.k_unMaxPropertyStringSize, ref error);
-  
+
  var serial = sb.ToString();
- 
+
  switch (serial)
  {
- case "LHR-67E402D1":
-  // "Found device with ID LHR-67E402D1 (Hip).
-  // Assinging Hip with device index: " + i
-  studentHip.GetComponent<SteamVR_TrackedObject>()
-   .SetDeviceIndex((int)i);
+  case "LHR-67E402D1":
+   // "Found device with ID LHR-67E402D1 (Hip).
+   // Assinging Hip with device index: " + i
+   studentHip.GetComponent<SteamVR_TrackedObject>()
+    .SetDeviceIndex((int)i);
   break;
- case "LHR-32C38603":
-  // "Found device with ID LHR-32C38603 (RFoot).
-  // Assinging RFoot with device index: " + i
-  studentRF.GetComponent<SteamVR_TrackedObject>()
-   .SetDeviceIndex((int)i);
+  case "LHR-32C38603":
+   // "Found device with ID LHR-32C38603 (RFoot).
+   // Assinging RFoot with device index: " + i
+   studentRF.GetComponent<SteamVR_TrackedObject>()
+    .SetDeviceIndex((int)i);
   break;
- ...
- 
+...
+
 }
 \end{lstlisting}
 
@@ -54,30 +54,30 @@ for(uint i = 0; i < 16; i++){
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/student_calibration.png}
-	\caption{All elements and their relations to calibrate one student. The values of shifting and rotating the markers can be reused by other projects with an similar setup.}
+	\caption{All elements and their relations to calibrate one student. Other projects with a similar setup can reuse the values of shifting and rotating the markers}
 	\label{fig:student_calibration}
 \end{figure}
-VRIK solves the limbs based on the above mentioned tracking points. The head reference is a child of the \textit{camera} provided by the SteamVR asset. It holds position and rotation and is the most important input for the solver. The VRIK solver takes this position as absolute and solves everything else based on this position. The position but not rotation overrides even overrides parent transforms. This fact influences the further handling in Unity massively: to transform a VRIK, the GameObject can not be translated to a specific position. This can only happen by transforming the references.\\
-Left and right hand position needs to be adjusted, because their root lies inside the body in the middle of the joint. To transform the References accordingly, they are a child to the tracker reference. From this root, the references are shifted 4 cm towards X and 3 cm towards Y. Additionally, the rotation needs to be adjusted by 90$^\circ$ in Y and Z. With this, the tracking point is located in the middle on the back of the hand.\\
-Left and right feet need adjustments to in terms of position and rotation. The Vive Tracker is located at the top of the feet, which is fine with the root of the VRIK reference. But the slope of the trackers and forward direction must be adjusted. The left reference needs a tilt of -25$^\circ$, the right reference by +25$^\circ$. For the correct direction, the left reference needs a rotation by 30$^\circ$ on Z-axis, the right by 60$^\circ$.\\
+VRIK solves the limbs based on the tracking points mentioned above. The head reference is a child of the \textit{camera} provided by the SteamVR asset. It holds position and rotation and is the most important input for the solver. The VRIK solver takes this position as absolute and solves everything else based on this position. The position but not rotation overrides even overrides parent transforms. This fact influences the further handling in Unity massively: to transform a VRIK, the GameObject can not be translated into a specific position. This translation can only happen by transforming the references.\\
+Left and right hand position need to be adjusted because their root lies inside the body in the middle of the joint. To transform the References accordingly, they are a child to the tracker reference. From this root, the references are shifted 4 cm towards X and 3 cm towards Y. Additionally, the rotation needs to be adjusted by 90$^\circ$ in Y and Z. With this, the tracking point is located in the middle on the back of the hand.\\
+Left and right feet need adjustments to in terms of position and rotation. The Vive Tracker is located at the top of the feet, which is fine with the root of the VRIK reference. However, the slope of the trackers and forward direction must be adjusted. The left reference needs a tilt of -25$^\circ$, the right reference by +25$^\circ$. For the correct direction, the left reference needs a rotation by 30$^\circ$ on Z-axis, the right by 60$^\circ$.\\
 The hip does not need further shifts. The values used for calibration are depicted in figure \ref{fig:student_calibration}\\
-With the correct position of the references, the references can now be assigned to an VRIK instance. This works with an VRIK calibration controller shown in figure \ref{fig:calibrationController}.
+With the correct position of the references, the references can now be assigned to a VRIK instance. This works with a VRIK calibration controller shown in figure \ref{fig:calibrationController}.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/calibration_controller.PNG}
 	\caption{VRIK Calibration Controller. Sets the references necessary to calibrate the student.}
 	\label{fig:calibrationController}
 \end{figure}
-The calibration controller takes the references and assigns it to the VRIK instance. In the same step the humanoid character is sized to the references.
+The calibration controller takes the references and assigns it to the VRIK instance. In the same step, the humanoid character is sized to the references.
 \subsection{Student Rendering}
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/student_rendering_pipeline.png}
-	\caption{Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the tracker placed on the hip of a student till the visual representation.}
+	\caption{Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the Tracker placed on the hip of a student until the visual representation.}
 	\label{fig:student_rendering_pipeline}
 \end{figure}
-The rendering of the students humanoid character is based on the live tracking data of the Vive Trackers. As seen above, the Trackers get associated to a GameObject e.g. hip. Relative to this GameObject, a reference is created. this reference is passed to the calibration controller. The calibration controller sets the corresponding references in the VRIK solver. So far nothing new.\\
-Now the VRIK takes an humanoid character and binds it muscles. then the solving begins and the algorithm animates the associated humanoid character. This character itsself consists out of a hierarchy of bones and muscles. These bones and muscles are overlaid by a mesh renderer which produces the desired output, compare figure \ref{student_rendering_pipeline}.
+The rendering of the student's humanoid character is based on the live tracking data of the Vive Trackers. As seen above, the Trackers get associated to a GameObject, e.g. hip. Relative to this GameObject, a reference is created. this reference is passed to the calibration controller. The calibration controller sets the corresponding references in the VRIK solver. So far nothing new.\\
+Now the VRIK takes a humanoid character and binds its muscles. then the solving begins, and the algorithm animates the associated humanoid character. This character itself consists of a hierarchy of bones and muscles. These bones and muscles are overlaid by a mesh renderer which produces the desired output, compare figure \ref{student_rendering_pipeline}.
 \subsection{Teacher Rendering}
 \begin{figure}
 	\centering
@@ -85,9 +85,9 @@ Now the VRIK takes an humanoid character and binds it muscles. then the solving 
 	\caption{Top: data flow to generate the visual representation of a teacher. Bottom: Example of animating the hip of a teacher.}
 	\label{fig:teacher_rendering_pipeline}
 \end{figure}
-The naive approach of rendering the teacher is to record a teacher and then just play the animation. But recording a humanoid animation is not natively supported by Unity and would require an third party tool to do so. This leads to unwanted differences in the representation of the teacher. To ensure, that teacher and student produce comparable renderings, the same technique has to be utilised. To accomplish this requirement, the movements are recorded by recording the students tracker position and then pass this as animations to a similar shaped hierarchy of \textit{GameObjects}, that in turn are used are passed the an VRIK solver. This is why the rendering pipeline of the teacher differs from the students rendering pipeline.\\
+The naive approach of rendering the teacher is to record a teacher and then just play the animation. However, recording a humanoid animation is not natively supported by Unity and would require a third-party tool to do so. This leads to unwanted differences in the representation of the teacher. To ensure, that teacher and student produce comparable renderings; the same technique has to be utilised. To accomplish this requirement, the movements are recorded by recording the student's tracker position and then pass this as animations to a similarly shaped hierarchy of \textit{GameObjects}, that in turn are used are passed the VRIK solver. This is why the rendering pipeline of the teacher differs from the students rendering pipeline.\\
 The process for the teacher is as follows, compare figure \ref{fig:teacher_rendering_pipeline}:
-For the teacher, a reference hierarchy needs to be created. The calibration above applies, but the head must be extracted from the camera and transformed into an own \textit{GameObject} with the heads reference turn by 90$^\circ$ on the Y and Z axis. On the parent \textit{TeacherReference} an \textit{AnimatorController} is attached. This \textit{AnimatorController} plays the pre recorded animation and transforms the references of the children accordingly. Now these children can be used like in the students rendering pipeline and passed to the \textit{CalibrationController}. Afterwards the rendering pipeline is as seen in the students pipeline.
+For the teacher, a reference hierarchy needs to be created. The calibration above applies, but the head must be extracted from the camera and transformed into an own \textit{GameObject} with the heads reference turn by 90$^\circ$ on the Y and Z axis. On the parent \textit{TeacherReference} an \textit{AnimatorController} is attached. This \textit{AnimatorController} plays the pre-recorded animation and transforms the references of the children accordingly. Now, these children can be used like in the students rendering pipeline and passed to the \textit{CalibrationController}. Afterwards, the rendering pipeline is as seen in the student's pipeline.
 
 \subsection{Assets Rendering}
 \begin{figure}
@@ -96,30 +96,36 @@ For the teacher, a reference hierarchy needs to be created. The calibration abov
 	\caption{Data flow to generate the visual representation of the box and the table.}
 	\label{fig:asset_rendering_pipeline}
 \end{figure}
-Finally, the objects the student and the teacher are interacting, namely the table and the box, need to be rendered. Rendering of these object is less complex. The students objects get attached by a Vive Tracker. The position and rotation of the Tracker is bound to a cube, which is scaled to the size of the box or the table. The teachers assets are also cubes scaled to the size of the cube and the table. But the position and rotation are set by the animator controller, compare figure \ref{fig:asset_rendering_pipeline}
+Finally, the objects the student and the teacher are interacting, namely the table and the box, need to be rendered. Rendering of these object is less complex. The student's objects get attached by a Vive Tracker. The position and rotation of the Tracker are bound to a cube, which is scaled to the size of the box or the table. The teacher's assets are also cubes scaled to the size of the cube and the table. But the position and rotation are set by the animator controller, compare figure \ref{fig:asset_rendering_pipeline}
 \subsection{Recording of Movements}
-As mentioned above, recording of humanoid movements are not trivial. The solution is to create a \textit{GameObject} with a similar hierarchy, compare figure \ref{fig:record_animation}. This \textit{GameObject} is called \textit{Recorder}. It is similar structured like the student. The references are holding a script which sets the transforms them to the transforms of the student. Additionally, the head reference, the box reference and the table reference. The transforms of these references are also copied from the real elements. This is necessary to have one single animation that controls the teacher. Otherwise time shifts between animations could be possible. Now the complete \textit{Recorder} hierarchy can be recorded by the \textit{Unity Recorder}. The outcome is an animation that produce the references necessary to render the teacher like described above.
+As mentioned above, the recording of humanoid movements is not trivial. The solution is to create a \textit{GameObject} with a similar hierarchy, compare figure \ref{fig:record_animation}. This \textit{GameObject} is called \textit{Recorder}. It is similarly structured like the student. The references are holding a script which sets the transforms them into the transforms of the student. Additionally, the head reference, the box reference and the table reference. The transforms of these references are also copied from the real elements. This is necessary to have one single animation that controls the teacher. Otherwise, time shifts between animations could be possible. Now the complete \textit{Recorder} hierarchy can be recorded by the \textit{Unity Recorder}. The outcome is an animation that produces the references necessary to render the teacher like described above.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/record-animate.png}
-	\caption{Left: setup of the recorder. GameObject that holds all points to record. Right: animated GameObject is used to steer a the teachers dummy.}
+	\caption{Left: setup of the recorder, GameObject that holds all points to record. Right: animated GameObject is used to steer the teacher's dummy.}
 	\label{fig:record_animation}
 \end{figure}
 \subsection{Resize}
-The teacher and the student are most likely to have different body sizes. especially in the ego-centric perspective, the size of the teacher must match the size of the student. But the naive approach of resizing the teachers humanoid character to the size of the student leads again not to a satisfying result. This is because the head position is absolute and not changeable for the VRIK solver. Resizing the teacher leads to floating or swaged representations. The solution for this is to resize the parent of the the teachers references, and then pass the already scaled references to the calibration controller. But this leads to another issue: the size of the student can only be assessed after the calibration controller did his work, assigned the references to the VRIK solver and sized the representation. To overcome this issue a 2-step body size calibration is necessary. First, the the students calibration controller performs the calibration of the student. Then the students height is measured and compared to the teachers size and stored in $\Delta y$. $\Delta y$ describes the percentage of size difference between teacher and student. Afterwards, the teachers references root is scaled by $\Delta y$ and gets reassigned to the calibration controller, which itself performs the task again. With this, the teacher has the same size as the student.
+The teacher and the student are most likely to have different body sizes. Especially in the ego-centric perspective, the size of the teacher must match the size of the student. However, the naive approach of resizing the teacher's humanoid character to the size of the student leads again not to a satisfying result. This is because the head position is absolute and not changeable for the VRIK solver. Resizing the teacher leads to floating or swaged representations. The solution for this is to resize the parent of the teacher's references, and then pass the already scaled references to the calibration controller. However, this leads to another issue: the size of the student can only be assessed after the calibration controller did his work, assigned the references to the VRIK solver and sized the representation. To overcome this issue, a 2-step body size calibration is necessary. First, the student's calibration controller performs the calibration of the student. Then the student's height is measured and compared to the teachers size and stored in $\Delta y$. $\Delta y$ describes the percentage of the size difference between teacher and student. Afterwards, the teacher's references root is scaled by $\Delta y$ and gets reassigned to the calibration controller, which itself performs the task again. With this, the teacher has the same size as the student.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/resize.png}
-	\caption{Calculating the height difference $\Delta y$ between the teacher and the student.}
+	\caption{Calculating the height difference of $\Delta y$ between the teacher and the student.}
 	\label{fig:resize}
 \end{figure}
 
 \newpage
 \section{Visual Perspectives}
 \subsection{Ego-Centric}
-The nature of an ego-centric perspective raises one big issue to tackle: the student has "to be in the teacher" in any point of time. If the teacher now wants to indicate a movement, meaning a translation of the own position in space, it is indicating this movement by moving away from the student. This leads inevitable to an non ego-centric perspective. To solve this issue, a closer look on the definition of the visual perspectives can help: the visual perspectives are represented by a continuum. On one extreme the ego-centric visual perspective is located, while on the other extreme the exo-centric perspective is located. With moving from one extreme to the other, the tethering distance\footnote{The tethering distance is the distance between the eyes anchor point and the camera observing the character in question.} is changing. A tethering distance of 0 indicates a pure ego-centric perspective while a greater tethering distance means shifting towards the exo-centric extreme. Following the nature of an continuum, a slightly larger tethering distance than 0 is still an ego-centric perspective. The task is now to choose a value for the tethering distance that still it still is an ego-centric perspective, but at the same time let the student be able to interpret the teachers indication of movement. 
-Based on empirical values the tethering distance is set to 30cm. It still feels ego-centric, but the indication of the movement of the teacher is clear to recognise. But a hard threshold would lead to non fluid demonstrations of the teacher, which is hard to follow for the student. For this reason, the tethering is set to a frame of 15cm to 30cm with a variable, interpolated speed of the teachers demonstration. This means, between 0cm and 15cm the teachers movement demonstrations are shown in normal speed. Between 15cm and 30cm the speed linearly decreases and stops completely at a tethering distance of 30cm. This makes the teachers movements easily to follow by the student with no interruptions.\\
-In the following, the implementation for this mechanic is described. First the teacher must be translated to the position of the student. Again, the naive approach of just shifting the teachers avatar on the students position doesn't fulfil the requirements, because the VRIK solver takes the position of the references as absolute. Though, the teachers references parents zero holding the animator has to be transformed.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/continuumShift.png}
+	\caption{Continuum of perspectives according to Milgram \cite{Milgram1994}. The red arrow indicates the shift towards the exo-centric perspective.}
+	\label{fig:continuumShift}
+\end{figure}
+The nature of an ego-centric perspective raises one big issue to tackle: the student has "to be in the teacher" at any point in time. If the teacher now wants to indicate a movement, meaning a translation of the own position in space, it is indicating this movement by moving away from the student. This leads inevitably to a non-ego-centric perspective. To solve this issue, a closer look at the definition of the visual perspectives can help, compare figure \ref{fig:continuumShift}: a continuum represents the visual perspectives. On one extreme, the ego-centric visual perspective is located, while on the other extreme, the exo-centric perspective is located. With moving from one extreme to the other, the tethering distance\footnote{The tethering distance is the distance between the eyes anchor point and the camera observing the character in question.} is changing. A tethering distance of 0 indicates a pure ego-centric perspective, while a greater tethering distance means shifting towards the exo-centric extreme. Following the nature of a continuum, a slightly larger tethering distance than 0 is still an ego-centric perspective. The task is now to choose a value for the tethering distance that it still is an ego-centric perspective, but at the same time let the student be able to interpret the teacher's indication of movement. 
+Based on empirical values, the tethering distance is set to 30cm. It still feels ego-centric, but the indication of the movement of the teacher is clear to recognise. However, a hard threshold would lead to non-fluid demonstrations of the teacher, which is hard to follow for the student. For this reason, the tethering is set to a frame of 15cm to 30cm with a variable, interpolated speed of the teacher's demonstration. This means, between 0cm and 15cm, the teacher's movement demonstrations are shown at normal speed. Between 15cm and 30cm, the speed linearly decreases and stops completely at a tethering distance of 30cm. This makes the teacher's movements easily to follow by the student with no interruptions.\\
+In the following, the implementation of this mechanic is described. First, the teacher must be translated to the position of the student. Again, the naive approach of just shifting the teacher's avatar on the student's position does not fulfil the requirements, because the VRIK solver takes the position of the references as absolute. Though, the teacher's references parents zero holding the animator has to be transformed.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/rootTransform.png}
@@ -127,27 +133,27 @@ In the following, the implementation for this mechanic is described. First the t
 	\label{fig:rootRansform}
 \end{figure}
 
-For this, the distance between the parent of the references zero of teacher and student is calculated and then the teachers references parent is shifted by this distance. This process is shown in detail in figure \ref{fig:rootRansform}: the teachers root must be shifted by $\vec{d}$, while $\vec{d}$ is determined by $\vec{a}$, $\vec{b}$ and $\vec{c}$. After shifting the teachers root by $\vec{d}$, the animation ($\vec{c}$) of the teacher applies and the teacher is placed directly in the student. Secondly, the animation speed is set by the by the distance between the student and the teacher. For this calculation, the hip references of both are taken into consideration. Is the difference of these two points below 0.15 the animation speed of the teacher is 1. If the distance is greater than 0.3 the animation speed is 0. Between 0.15 and 0.3 the animation is a linear interpolation. The following pseudocode is used for that:
+For this, the distance between the parent of the references zero of teacher and student is calculated, and then the teacher's references parent is shifted by this distance. This process is shown in detail in figure \ref{fig:rootRansform}: the teachers root must be shifted by $\vec{d}$, while $\vec{d}$ is determined by $\vec{a}$, $\vec{b}$ and $\vec{c}$. After shifting the teacher's root by $\vec{d}$, the animation ($\vec{c}$) of the teacher applies, and the teacher is placed directly in the student. Secondly, the animation speed is set by the distance between the student and the teacher. For this calculation, the hip references of both are taken into consideration. Is the difference between these two points below 0.15, the animation speed of the teacher is 1. If the distance is greater than 0.3, the animation speed is 0. Between 0.15 and 0.3 the animation is a linear interpolation. The following pseudocode achieves this:
 \newpage
 \begin{lstlisting}[language=JAVA, frame=single]
 float stopDistance = 0.3f;
 float fullSpeedDistance = 0.15f;
 
 void Update()
-{
- Vector3 deltaStudentTeacher =
+ {
+  Vector3 deltaStudentTeacher =
   studentHip.transform.position -
   (teacherHip.transform.position -
   teacherZero.transform.position);
 
  if(deltaStudentTeacher.magnitude > stopDistance){
-   setAnimationSpeedOfAllTeachersToZero();
+  setAnimationSpeedOfAllTeachersToZero();
  }
  else
  {
-   allTeacherAnimators.speed =
-     Mathf.Min(1f, (stopDistance / fullSpeedDistance - 
-     (deltaStudentTeacher.magnitude / fullSpeedDistance)));
+ allTeacherAnimators.speed =
+  Mathf.Min(1f, (stopDistance / fullSpeedDistance - 
+  (deltaStudentTeacher.magnitude / fullSpeedDistance)));
  }   
 }
 \end{lstlisting}
@@ -161,7 +167,7 @@ void Update()
 %yxc how to achieve multiple representations?
 
 \subsection{Exo-Centric}
-The exo-centric visual perspective is less complex than the ego-centric visual perspective. The teacher is located outside of the student and the student can choose the own position to observe the teacher. But in this condition the student can turn away from the student by following the instructions of the teacher. To visualise this issue, follow this scenario (\href{https://www.youtube.com/watch?v=mRG22RBXKTM&feature=youtu.be}{demo video}): teacher and student standing side by side and looking into the same direction. The student stands left of the teacher. If the teacher turns left and the student also turns left, the student can no longer see the teacher and follow the instructions. But even when the teacher is turning to the right, the student sees the teacher from the back, unable to see what the teacher is doing in front of the teachers body. One could argue that in real world scenarios the same issue exists. But in real world scenarios where this issue is likely, it is also likely that in the room are mirrors, allowing to see areas that are coved by the teachers body. With this argumentation multiple representations of the teacher are introduced. Instead of having only one instance of the teacher, four instances on different positions around the student are present. By empirical values, the teacher is translated by:
+The exo-centric visual perspective is less complex than the ego-centric visual perspective. The teacher is located outside of the student, and the student can choose their position to observe the teacher. However, in this condition, the student can turn away from the student by following the instructions of the teacher. To visualise this issue, follow this scenario (\href{https://www.youtube.com/watch?v=mRG22RBXKTM&feature=youtu.be}{demo video}): teacher and student standing side by side and looking into the same direction. The student stands left of the teacher. If the teacher turns left and the student also turns left, the student can no longer see the teacher and follow the instructions. However, even when the teacher is turning to the right, the student sees the teacher from the back, unable to see what the teacher is doing in front of the teacher's body. One could argue that in real-world scenarios, the same issue exists. However, in real-world scenarios where this issue is likely, it is also likely that in the room are mirrors, allowing to see areas that are coved by the teacher's body. With this argumentation, multiple representations of the teacher are introduced. Instead of having only one instance of the teacher, four instances on different positions around the student are present. By empirical values, the teacher is translated by:
 \begin{itemize}
 	\centering
 	\item[teacher0:] $\vec{t_0} = (-0.2,0,1.5)$
@@ -170,9 +176,9 @@ The exo-centric visual perspective is less complex than the ego-centric visual p
 	\item[teacher3:] $\vec{t_3} = (-0.2,0,-1.5)$
 \end{itemize}
 
-Now the the student has multiple angles on the teacher, which overcome the mirror issue\footnote{Mirror issue: a teacher in standing in front of the student forces the student to move the e.g. left arm when the teacher moves the right arm. Compare seminar thesis for more details}, too.
+Now the student has multiple angles on the teacher, which overcome the mirror issue\footnote{Mirror issue: a teacher is standing in front of the student forces the student to move the, e.g. left arm when the teacher moves the right arm. Compare seminar thesis for more details}, too.
 \subsection{Ego-Centric \& Exo-Centric}
-The combination of the ego-centric and exo-centric perspective leads to the third visual perspective. Like the name indicates, the teacher can be seen from the ego-centric perspective and the exo-centric perspective simultaneously: teacher stands outside and inside of the students body. To achieve this, the two above visual perspectives are combined. Starting from the above described exo-centric visual perspective with its four teachers, a fifth teacher is introduced and placed inside of the student with the same mechanics as in the above described ego-centric perspective. Eventually, the animation speed of the ego-centric teacher must be applied to the exo-centric teachers. This happens by the script \textit{putTeacherIntoStudent.cs} which holds references to all animation controllers. The script synchronises all animations and changes the speed of the animation playback.
+The combination of the ego-centric and exo-centric perspective leads to the third visual perspective. As the name indicates, the teacher can be seen from the ego-centric perspective and the exo-centric perspective simultaneously: the teacher stands outside and inside of the student's body. To achieve this, the two above visual perspectives are combined. Starting from the above described exo-centric visual perspective with its four teachers, a fifth teacher is introduced and placed inside of the student with the same mechanics as in the above described ego-centric perspective. Eventually, the animation speed of the ego-centric teacher must be applied to the exo-centric teachers. This happens by the script \textit{putTeacherIntoStudent.cs} which holds references to all animation controllers. The script synchronises all animations and changes the speed of the animation playback.
 \subsection{Augmented Exo-Centric}
-In the augmented exo-centric perspective, the student stands inside of the the teacher. While the number of teachers remains at 4, the student now needs to have multiple representations. One at the real world location, representing the ego-centric perspective, and four more in every teacher. The formation of the exo-centric perspective remains. Because no ego-centric perspective is present, the animation are not needed to have speed interpolation.
+In the augmented exo-centric perspective, the student stands inside of the teacher. While the number of teachers remains at 4, the student now needs to have multiple representations. One at the real-world location, representing the ego-centric perspective, and four more in every teacher. The formation of the exo-centric perspective remains. Because no ego-centric perspective is present, the animation is not needed to have speed interpolation.
 

@@ -14,13 +14,14 @@
 \contentsline {figure}{\numberline {2.11}{\ignorespaces setup}}{18}{figure.2.11}% 
 \addvspace {10pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Vive Tracker matching. Left: reference holding all Objects to be transformed by a tracker, middle: device ID list, right script which reads the hardware IDs and sets the device IDs.}}{19}{figure.3.1}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces All elements and their relations to calibrate one student. The values of shifting and rotating the markers can be reused by other projects with an similar setup.}}{21}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces All elements and their relations to calibrate one student. Other projects with a similar setup can reuse the values of shifting and rotating the markers}}{21}{figure.3.2}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces VRIK Calibration Controller. Sets the references necessary to calibrate the student.}}{22}{figure.3.3}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the tracker placed on the hip of a student till the visual representation.}}{23}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the Tracker placed on the hip of a student until the visual representation.}}{23}{figure.3.4}% 
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Top: data flow to generate the visual representation of a teacher. Bottom: Example of animating the hip of a teacher.}}{23}{figure.3.5}% 
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Data flow to generate the visual representation of the box and the table.}}{24}{figure.3.6}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Left: setup of the recorder. GameObject that holds all points to record. Right: animated GameObject is used to steer a the teachers dummy.}}{25}{figure.3.7}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Calculating the height difference $\Delta y$ between the teacher and the student.}}{26}{figure.3.8}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Process of shifting the teacher into the student.}}{28}{figure.3.9}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Teachers animation speed, linear interpolated.}}{30}{figure.3.10}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Left: setup of the recorder, GameObject that holds all points to record. Right: animated GameObject is used to steer the teacher's dummy.}}{25}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Calculating the height difference of $\Delta y$ between the teacher and the student.}}{26}{figure.3.8}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Continuum of perspectives according to Milgram \cite {Milgram1994}. The red arrow indicates the shift towards the exo-centric perspective.}}{27}{figure.3.9}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Process of shifting the teacher into the student.}}{28}{figure.3.10}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Teachers animation speed, linear interpolated.}}{31}{figure.3.11}% 
 \addvspace {10pt}

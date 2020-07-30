@@ -23,15 +23,14 @@
 \contentsline {subsection}{Teacher Rendering}{23}{section*.17}% 
 \contentsline {subsection}{Assets Rendering}{24}{section*.18}% 
 \contentsline {subsection}{Recording of Movements}{25}{section*.19}% 
-\contentsline {subsection}{Resize}{25}{section*.20}% 
+\contentsline {subsection}{Resize}{26}{section*.20}% 
 \contentsline {section}{\numberline {3.1}Visual Perspectives}{27}{section.3.1}% 
 \contentsline {subsection}{Ego-Centric}{27}{section*.21}% 
-\contentsline {subsection}{Exo-Centric}{29}{section*.22}% 
-\contentsline {subsection}{Ego-Centric \& Exo-Centric}{30}{section*.23}% 
-\contentsline {subsection}{Augmented Exo-Centric}{31}{section*.24}% 
+\contentsline {subsection}{Exo-Centric}{30}{section*.22}% 
+\contentsline {subsection}{Ego-Centric \& Exo-Centric}{31}{section*.23}% 
+\contentsline {subsection}{Augmented Exo-Centric}{32}{section*.24}% 
 \contentsline {chapter}{\chapternumberline {4}Outlook}{33}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Upcoming Tasks}{33}{section.4.1}% 
 \contentsline {section}{\numberline {4.2}Evaluation}{33}{section.4.2}% 
 \contentsline {chapter}{Bibliography}{35}{chapter*.25}% 
 \contentsline {chapter}{List of Figures}{37}{section*.26}% 
-\contentsline {chapter}{List of Tables}{39}{section*.27}% 

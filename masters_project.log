@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.4)  30 JUL 2020 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.4)  30 JUL 2020 19:38
 entering extended mode
 **./masters_project.tex
 (masters_project.tex
@@ -1079,7 +1079,7 @@ l.1 \chapter
 
 
 ]
-<img/perspectives.PNG, id=110, 948.1824pt x 436.029pt>
+<img/perspectives.PNG, id=105, 948.1824pt x 436.029pt>
 File: img/perspectives.PNG Graphic file (type png)
 <use img/perspectives.PNG>
 Package pdftex.def Info: img/perspectives.PNG  used on input line 6.
@@ -1093,19 +1093,19 @@ Package pdftex.def Info: img/perspectives.PNG  used on input line 6.
 
 
 ]
-<img/hmd.jpg, id=182, 4047.12pt x 3035.34pt>
+<img/hmd.jpg, id=177, 4047.12pt x 3035.34pt>
 File: img/hmd.jpg Graphic file (type jpg)
 <use img/hmd.jpg>
 Package pdftex.def Info: img/hmd.jpg  used on input line 9.
 (pdftex.def)             Requested size: 418.25368pt x 313.64856pt.
  [7]
-<img/lh.jpg, id=188, 803.0pt x 446.66875pt>
+<img/lh.jpg, id=183, 803.0pt x 446.66875pt>
 File: img/lh.jpg Graphic file (type jpg)
 <use img/lh.jpg>
 Package pdftex.def Info: img/lh.jpg  used on input line 17.
 (pdftex.def)             Requested size: 418.25368pt x 232.65756pt.
  [8 <./img/hmd.jpg>]
-<img/hmdComparison.png, id=199, 966.9726pt x 309.3156pt>
+<img/hmdComparison.png, id=194, 966.9726pt x 309.3156pt>
 File: img/hmdComparison.png Graphic file (type png)
 <use img/hmdComparison.png>
 Package pdftex.def Info: img/hmdComparison.png  used on input line 28.
@@ -1136,25 +1136,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--35
  []
 
 [9 <./img/lh.jpg>]
-<img/motion_tracking_comparison.png, id=220, 966.9726pt x 306.4248pt>
+<img/motion_tracking_comparison.png, id=215, 966.9726pt x 306.4248pt>
 File: img/motion_tracking_comparison.png Graphic file (type png)
 <use img/motion_tracking_comparison.png>
 Package pdftex.def Info: img/motion_tracking_comparison.png  used on input line
  50.
 (pdftex.def)             Requested size: 418.25368pt x 132.54092pt.
  [10 <./img/hmdComparison.png>]
-<img/woven.jpg, id=236, 600.3228pt x 542.9886pt>
+<img/woven.jpg, id=231, 600.3228pt x 542.9886pt>
 File: img/woven.jpg Graphic file (type jpg)
 <use img/woven.jpg>
 Package pdftex.def Info: img/woven.jpg  used on input line 63.
 (pdftex.def)             Requested size: 209.12683pt x 189.15404pt.
-<img/optitrack_evaluation.png, id=238, 897.5934pt x 420.6114pt>
+<img/optitrack_evaluation.png, id=233, 897.5934pt x 420.6114pt>
 File: img/optitrack_evaluation.png Graphic file (type png)
 <use img/optitrack_evaluation.png>
 Package pdftex.def Info: img/optitrack_evaluation.png  used on input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 195.99945pt.
  [11 <./img/motion_tracking_comparison.png>]
-<img/vive_tracker_evaluation.png, id=249, 813.7602pt x 386.4036pt>
+<img/vive_tracker_evaluation.png, id=244, 813.7602pt x 386.4036pt>
 File: img/vive_tracker_evaluation.png Graphic file (type png)
 <use img/vive_tracker_evaluation.png>
 Package pdftex.def Info: img/vive_tracker_evaluation.png  used on input line 80
@@ -1164,19 +1164,19 @@ Package pdftex.def Info: img/vive_tracker_evaluation.png  used on input line 80
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./img/woven.jpg>]
-<img/singleViveTracker.jpg, id=255, 4625.28pt x 2601.72pt>
+<img/singleViveTracker.jpg, id=250, 4625.28pt x 2601.72pt>
 File: img/singleViveTracker.jpg Graphic file (type jpg)
 <use img/singleViveTracker.jpg>
 Package pdftex.def Info: img/singleViveTracker.jpg  used on input line 88.
 (pdftex.def)             Requested size: 418.25368pt x 235.25627pt.
-<img/trackerMount.jpg, id=258, 4046.11626pt x 1695.33376pt>
+<img/trackerMount.jpg, id=253, 4046.11626pt x 1695.33376pt>
 File: img/trackerMount.jpg Graphic file (type jpg)
 <use img/trackerMount.jpg>
 Package pdftex.def Info: img/trackerMount.jpg  used on input line 95.
 (pdftex.def)             Requested size: 418.25368pt x 175.2344pt.
  [13 <./img/optitrack_evaluation.png>] [14 <./img/vive_tracker_evaluation.png> 
 <./img/singleViveTracker.jpg>]
-<img/box_table.jpg, id=275, 4625.28pt x 2601.72pt>
+<img/box_table.jpg, id=270, 4625.28pt x 2601.72pt>
 File: img/box_table.jpg Graphic file (type jpg)
 <use img/box_table.jpg>
 Package pdftex.def Info: img/box_table.jpg  used on input line 106.
@@ -1190,7 +1190,7 @@ LaTeX Warning: Reference `fig:box_table' on page 15 undefined on input line 110
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <./img/trackerMount.jpg>] [16 <./img/box_table.jpg>]
-<img/setup.png, id=299, 968.418pt x 547.3248pt>
+<img/setup.png, id=294, 968.418pt x 547.3248pt>
 File: img/setup.png Graphic file (type png)
 <use img/setup.png>
 Package pdftex.def Info: img/setup.png  used on input line 141.
@@ -1200,7 +1200,7 @@ Package pdftex.def Info: img/setup.png  used on input line 141.
 
 
 (implementation.tex
-<img/viveTrackerMatching.png, id=311, 877.3578pt x 266.4354pt>
+<img/viveTrackerMatching.png, id=306, 877.3578pt x 266.4354pt>
 File: img/viveTrackerMatching.png Graphic file (type png)
 <use img/viveTrackerMatching.png>
 Package pdftex.def Info: img/viveTrackerMatching.png  used on input line 6.
@@ -1220,12 +1220,12 @@ File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 23.
-<img/student_calibration.png, id=320, 909.6384pt x 537.207pt>
+<img/student_calibration.png, id=315, 909.6384pt x 537.207pt>
 File: img/student_calibration.png Graphic file (type png)
 <use img/student_calibration.png>
 Package pdftex.def Info: img/student_calibration.png  used on input line 56.
 (pdftex.def)             Requested size: 418.25368pt x 247.01166pt.
-<img/calibration_controller.PNG, id=323, 335.75438pt x 158.84344pt>
+<img/calibration_controller.PNG, id=318, 335.75438pt x 158.84344pt>
 File: img/calibration_controller.PNG Graphic file (type png)
 <use img/calibration_controller.PNG>
 Package pdftex.def Info: img/calibration_controller.PNG  used on input line 67.
@@ -1238,7 +1238,7 @@ Underfull \vbox (badness 1917) has occurred while \output is active []
 Underfull \vbox (badness 6876) has occurred while \output is active []
 
  [21 <./img/student_calibration.png>]
-<img/student_rendering_pipeline.png, id=365, 946.737pt x 383.031pt>
+<img/student_rendering_pipeline.png, id=360, 946.737pt x 383.031pt>
 File: img/student_rendering_pipeline.png Graphic file (type png)
 <use img/student_rendering_pipeline.png>
 Package pdftex.def Info: img/student_rendering_pipeline.png  used on input line
@@ -1249,7 +1249,7 @@ Package pdftex.def Info: img/student_rendering_pipeline.png  used on input line
 LaTeX Warning: Reference `student_rendering_pipeline' on page 22 undefined on i
 nput line 80.
 
-<img/teacher_rendering_pipeline.png, id=366, 952.5186pt x 387.849pt>
+<img/teacher_rendering_pipeline.png, id=361, 952.5186pt x 387.849pt>
 File: img/teacher_rendering_pipeline.png Graphic file (type png)
 <use img/teacher_rendering_pipeline.png>
 Package pdftex.def Info: img/teacher_rendering_pipeline.png  used on input line
@@ -1257,45 +1257,56 @@ Package pdftex.def Info: img/teacher_rendering_pipeline.png  used on input line
 (pdftex.def)             Requested size: 418.25368pt x 170.3049pt.
 [22 <./img/calibration_controller.PNG>] [23 <./img/student_rendering_pipeline.p
 ng> <./img/teacher_rendering_pipeline.png>]
-<img/assets_rendering_pipeline.png, id=384, 701.9826pt x 363.2772pt>
+<img/assets_rendering_pipeline.png, id=379, 701.9826pt x 363.2772pt>
 File: img/assets_rendering_pipeline.png Graphic file (type png)
 <use img/assets_rendering_pipeline.png>
 Package pdftex.def Info: img/assets_rendering_pipeline.png  used on input line 
 95.
 (pdftex.def)             Requested size: 418.25368pt x 216.44917pt.
-<img/record-animate.png, id=387, 720.7728pt x 426.8748pt>
+ [24 <./img/assets_rendering_pipeline.png>]
+<img/record-animate.png, id=389, 720.7728pt x 426.8748pt>
 File: img/record-animate.png Graphic file (type png)
 <use img/record-animate.png>
 Package pdftex.def Info: img/record-animate.png  used on input line 104.
 (pdftex.def)             Requested size: 418.25368pt x 247.7113pt.
- [24 <./img/assets_rendering_pipeline.png>]
-<img/resize.png, id=395, 540.5796pt x 335.8146pt>
+<img/resize.png, id=390, 540.5796pt x 335.8146pt>
 File: img/resize.png Graphic file (type png)
 <use img/resize.png>
 Package pdftex.def Info: img/resize.png  used on input line 112.
 (pdftex.def)             Requested size: 418.25368pt x 259.82832pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [25 <./img/record-animate.png>] [26 <./img/resize.png>]
-<img/rootTransform.png, id=411, 805.0878pt x 412.9026pt>
+<img/continuumShift.png, id=405, 481.8pt x 196.5744pt>
+File: img/continuumShift.png Graphic file (type png)
+<use img/continuumShift.png>
+Package pdftex.def Info: img/continuumShift.png  used on input line 122.
+(pdftex.def)             Requested size: 418.25368pt x 170.6524pt.
+<img/rootTransform.png, id=410, 805.0878pt x 412.9026pt>
 File: img/rootTransform.png Graphic file (type png)
 <use img/rootTransform.png>
-Package pdftex.def Info: img/rootTransform.png  used on input line 125.
+Package pdftex.def Info: img/rootTransform.png  used on input line 131.
 (pdftex.def)             Requested size: 418.25368pt x 214.50897pt.
- [27] [28 <./img/rootTransform.png>]
-<img/teachers_animation_speed_chart.png, id=426, 361.35pt x 216.3282pt>
+ [27 <./img/continuumShift.png>]
+Underfull \vbox (badness 2865) has occurred while \output is active []
+
+ [28 <./img/rootTransform.png>] [29]
+<img/teachers_animation_speed_chart.png, id=432, 361.35pt x 216.3282pt>
 File: img/teachers_animation_speed_chart.png Graphic file (type png)
 <use img/teachers_animation_speed_chart.png>
 Package pdftex.def Info: img/teachers_animation_speed_chart.png  used on input 
-line 157.
+line 163.
 (pdftex.def)             Requested size: 418.25368pt x 250.39622pt.
- [29] [30 <./img/teachers_animation_speed_chart.png>])
-[31]
+ [30] [31 <./img/teachers_animation_speed_chart.png>])
+[32]
 \openout2 = `outlook.aux'.
 
- (outlook.tex [32
+ (outlook.tex) [33
 
 
 
-]) [33] [34
+] [34
 
 
 ] (masters_project.bbl
@@ -1314,19 +1325,12 @@ Overfull \hbox (173.02635pt too wide) in paragraph at lines 6--6
 [], []https://www.vive.com/eu/product/vive- 
  []
 
-[37]) (masters_project.lot)
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
-[39]
+[37]) [38]
 \tf@toc=\write8
 \openout8 = `masters_project.toc'.
 
 \tf@lof=\write9
 \openout9 = `masters_project.lof'.
-
-\tf@lot=\write10
-\openout10 = `masters_project.lot'.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
@@ -1335,17 +1339,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
 Package rerunfilecheck Info: File `masters_project.out' has not changed.
-(rerunfilecheck)             Checksum: 802F4EBC68A40F1333D3F20F69857E7C;826.
+(rerunfilecheck)             Checksum: 7121A5376ED0376B5F360C8BDD012408;773.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22030 strings out of 492895
- 383757 string characters out of 3133480
- 699544 words of memory out of 3000000
- 25369 multiletter control sequences out of 15000+200000
+ 22032 strings out of 492895
+ 383810 string characters out of 3133480
+ 699866 words of memory out of 3000000
+ 25373 multiletter control sequences out of 15000+200000
  15570 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  59i,12n,73p,2107b,1369s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1359,9 +1363,9 @@ fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 msl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on masters_project.pdf (43 pages, 7626491 bytes).
+Output written on masters_project.pdf (42 pages, 7689897 bytes).
 PDF statistics:
- 625 PDF objects out of 1000 (max. 8388607)
+ 626 PDF objects out of 1000 (max. 8388607)
  182 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
