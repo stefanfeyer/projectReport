@@ -1,18 +1,37 @@
 \chapter{Technology Evaluation}
-The hardware setting consists out of three main parts. First an Virtual Reality Head Mounted Display which serves as the window to the virtual world for the participant. Secondly, a motion capturing system, which serves as translation of the real world movements in the virtual world. Thirdly, the assets with which the participant of the study will interact with. This chapter discusses the requirements these three aspects have to fulfil to have a reliable and suitable study design.\\ 
-In the early stages of planning a study, it is very important to choose the hardware wisely. The hardware is the base on which the software is build up and both needs to fulfil requirements to be usable in a study. For example the accuracy must be high enough to measure what want to be measured and also it must be as reliable as possible, to not disrupt the study procedure. For this reason hard and software were analysed.
+The hardware consists of three main parts. First, an Virtual Reality (VR) Head Mounted Display (HMD) which serves as the window to the virtual world for the study participants. Secondly, a motion capturing system, which serves as translation of the real world movements in the virtual world. Thirdly, the assets with which the participant of the study will interact. This chapter discusses the requirements these three aspects have to fulfil to have a reliable and suitable study design.\\ 
+In the early stages of planning a study, it is vital to choose the hardware wisely. The hardware is the base on which the software is built, and both need to fulfil requirements to be usable in a study. For example, the accuracy must be high enough to measure what want to be measured and also it must be as reliable as possible, to not disrupt the study procedure. For this reason, hard and software were analysed.
 \section{Hardware}
-\subsection{HMD}
-In 2013, the first next generation head mounted displays (HMD) was on market for sale. The Oculus Rift DK1 had given the first glimpse on what will be possible with this new Virtual Reality headsets. The next big step was the evolution of graphics cards and with the GTX 1080 released in May 2016, enough graphics power was widely available to run state of the art head sets. Since then, more and more headsets of multiple companies made it to market maturity and today we are spoilt of choice. Meanwhile there are many headsets that fulfil the requirements to teach motor learning in virtual reality. They have a low latency,  are exact, have plenty of pixels with reasonable refresh rates and a wide field of view. But they differ in the tracking technology used to identify they position and orientation in space, as well as other aspects like the information transfer to an pc or the possibility of wearing glasses beneath it. The possibility to wear glasses beneath the head mounted display is important, because no one is excluded to participate in the study for the reason wearing glasses. For this project the cable does not play a big role. Since all headsets worth considering fulfil the requirements to conduct a study on motor learning, the decision was mostly made from the possibility to wear glasses and having the same coordinate system then the motion tracking technology, which guarantees easier and a more stable environment. The Valve Index headset currently has with the best performance and fulfils the additional requirements. Though the choice here was easy\footnote{Meanwhile the Pimax 8K is on sale. From a technical view this is a headset outperforming the Valve Index. A test of this hardware is planned and if it proves to be suitable the study will be conducted with the Pimax 8K}. A small comparison of VR HMDs can be found in Table \ref{fig:hmdComparison}.
+\subsection{Head Mounted Display}
+In 2013, the first next-generation HMDs was on the market for sale. The Oculus Rift DK1 had given the first glimpse on what will be possible with this new Virtual Reality headsets. The next big step was the evolution of graphics cards, and with the GTX 1000 series released in May 2016, enough graphics power was widely available to run state of the art headsets. Since then, more and more headsets of multiple companies made it to market maturity, and today we are spoilt of choice. Meanwhile, many headsets fulfil the requirements to teach motor learning in virtual reality. They have low latency, are exact, have plenty of pixels with reasonable refresh rates and a wide field of view. However, they differ in the tracking technology utilised to identify their position and orientation in space, as well as other aspects like the information transfer to a PC or the possibility of wearing glasses beneath it. The possibility to wear glasses beneath the HMD is important because no one is excluded from participating in the study for the reason of wearing glasses. For this project, the cable does not play a big role. Since all headsets worth considering fulfil the requirements to conduct a study on motor learning, the decision was mostly made from the possibility to wear glasses and have the same coordinate system as the motion tracking technology, which guarantees easier and a more stable environment. The Valve Index headset, compare figure \ref{fig:hmd} currently has with the best performance and fulfils the additional requirements. Though the choice here was easy\footnote{Meanwhile, the Pimax 8K is on sale. From a technical view, this is a headset outperforming the Valve Index. A test of this hardware is planned, and if it proves to be suitable, the study will be conducted with the Pimax 8K}. A comparison of VR HMDs can be found in Table \ref{fig:hmdComparison}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/hmd.jpg}
+	\caption{Valve Index}
+	\label{fig:hmd}
+\end{figure}
+
+\subsubsection{Lighthouse}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/lh.jpg}
+	\caption{Light House 2.0}
+	\label{fig:lh}
+\end{figure}
+
+%if needed, elaborate more about the functionality of the Lighthouse
+The so-called \textit{Lighthouse 2}, compare figure \ref{fig:lh}, by Valve, also called \textit{Base Stations} are rectangular boxes in size of 7.5 x 7.5 x 6 cm. They emit a fast-moving laser beam. With two base stations, the HMD, Vive Trackers and Controller can determine the exact position and orientation in 3D space in real-time. The Lighthouse enables E(x\textbar g)o to track all actors. The setting includes 4 Base Stations in each corner of the tracked volume. Two Base Stations would be enough to track the actor in the volume, but since the system is optical, it is prone to occlusion. To overcome this issue, 4 Base Stations are used. 
+
+
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/hmdComparison.png}
-	\caption{Comparison of VR HMDs. Sources: developer.oculus.com/design/oculus-device-specs/, www.pimax.com/pages/pimax-8k-series, www.vive.com/eu/product/vive-pro/, www.valvesoftware.com/de/index/headset, all accessed: 19.06.2020
+	\caption{Comparison of VR HMDs. Sources: \href{https://developer.oculus.com/design/oculus-device-specs/}{https://developer.oculus.com/design/oculus-device-specs/}, \href{https://www.pimax.com/pages/pimax-8k-series}{https://www.pimax.com/pages/pimax-8k-series}, \href{https://www.vive.com/eu/product/vive-pro/}{https://www.vive.com/eu/product/vive-pro/}, \href{https://www.valvesoftware.com/de/index/headset}{https://www.valvesoftware.com/de/index/headset}, all accessed: 19.06.2020
 	}
 	\label{fig:hmdComparison}
 \end{figure}
 \subsection{Motion Tracking}
-In contrast to the VR HMD, the choice for motion tracking hardware more difficult.\\
+In contrast to the VR HMD, the choice for motion tracking hardware is more difficult.\\
 
 The requirements for the motion capturing system are as follows: 
 \begin{itemize}
@@ -23,28 +42,103 @@ The requirements for the motion capturing system are as follows:
 	\item \textbf{Sufficient tracking points}: for measuring movements, enough tracking points must be provided for comparing the movements.
 	\item \textbf{Extendable}: assets must be able to be tracked as well.
 	\item \textbf{Reliable, study safe setup}: jitter or calibration loss can void a study.
-	\item \textbf{No coordinate system matching}: matching of different coordinate system for e.g. HMD and the human body is an error source which should be excluded.
+	\item \textbf{No coordinate system matching}: matching of the different coordinate system, e.g. HMD and the human body is an error source which should be excluded.
 \end{itemize}
-There are two main classes of motion tracking systems: inside-out and outside in. Both of them have pros and cons. Inside-out tracking uses active sensors on the body to track. Perception Neuron\footnote{neuronmocap.com} uses the magnetic field of the earth to identify position and orientation changes. But magnetic sensors are prone to metal. Other systems \footnote{rokoko.com, xsens.com} use accelerometer or gyroscopes or a combination to track the movements. But there is still the drift problem: a position is determined by the previous position and the error adds on the error before. The longer the capturing, the greater the error. On the plus side, the tracked area is potentially infinite and the sensors are rather small. On the other side, outside-in tracking system use external tracking devices to track points on the body in question. These systems deliver an absolute position and orientation in the tracking space and do not have the drift issue. If accuracy is the measurement in question, inside-out tracking systems are always second to outside-in tracking systems. For this reason, in the following only outside-in tracking systems are discussed. %yxc comparison/table?img
+There are two main classes of motion tracking systems: inside-out and outside in. Both of them have pros and cons. Inside-out tracking uses active sensors on the body to track. Perception Neuron\footnote{\href{https://neuronmocap.com/}{https://neuronmocap.com/}} uses the magnetic field of the earth to identify the position and orientation changes. However, magnetic sensors are prone to metal. Other systems \footnote{\href{https://www.rokoko.com/}{https://www.rokoko.com/}, \href{https://www.xsens.com/}{https://www.xsens.com/}} use accelerometer or gyroscopes or a combination to track the movements. However, there is still the drift problem: a position is determined by the previous position, and the error adds on the error before. The longer the capturing, the greater the error. On the plus side, the tracked area is potentially infinite, and the sensors are rather small. On the other hand, outside-in tracking systems use external tracking devices to track points on the body in question. These systems deliver an absolute position and orientation in the tracking space and do not have the drift issue. If accuracy is the measurement in question, inside-out tracking systems are always second to outside-in tracking systems. For this reason, in the following only outside-in tracking systems are discussed. An overview of the evaluated motion tracking technologies is depicted in figure \ref{fig:motionTrackingComparison}.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/motion_tracking_comparison.png}
+	\caption{Comparison of evaluated Motion Tracking technologies.}
+	\label{fig:motionTrackingComparison}
+\end{figure}
+
 \subsubsection{Kinect}
-Microsoft Kinect 2.0 is the successor of the 1.0 version released in 2014. It uses a RGB camera and an IR camera to calculate a skeleton of a human body in front of it. It is very easy to setup and use. Also the tracking area is large enough. But the participant needs to face the Kinect at all time to have a reliable, jitter free tracking. An evaluation of the Kinect 2.0 revealed that it is not suitable for motor learning. Compare test video: https://youtu.be/3ftKXTBCN0Y.
+Microsoft Kinect 2.0 is the successor of the 1.0 version released in 2014. It uses an RGB camera and an IR camera to calculate a skeleton of a human body in front of it. It is effortless to set up and use. Also, the tracking area is large enough. However, the participant needs to face the Kinect at all time to have a reliable, jitter-free tracking. An evaluation of the Kinect 2.0 revealed that it is not suitable for motor learning. Compare \href{https://youtu.be/3ftKXTBCN0Y}{test video}.
+
+
 \subsubsection{OptiTrack}
-OptiTrack is an optical motion tracking system. Multiple infrared cameras track reflective markers on the human body, calculating a skeleton. \ref{fig:optitrack}
+\ref{fig:optitrack} OptiTrack is an optical motion tracking system. Multiple infrared cameras track reflective markers on the human body, calculating a skeleton. This skeleton is sent to the engine in use where it can be used to train movements. The movement area is big, depending on the camera setup and has high accuracy as long there is no noise. Additionally, with an external tool called OpenVR\footnote{\href{https://v22.wiki.optitrack.com/index.php?title=OptiTrack\_OpenVR\_Driver}{https://v22.wiki.optitrack.com/index.php?title=OptiTrack\_OpenVR\_Driver}} the HMD can be natively tracked, too and thus no coordinate system matching is necessary. On the opposite side, there is the setup itself, compare figure \ref{fig:optitrack} left. The cameras are connected by USB to the PC, there the OptiTrack driver calculates the position in the room. The OptiTrack driver loops this calculated data back on localhost where the OpenVR driver takes it, makes his calculations to include the HMD then and loops it again back on localhost. Here the SteamVR driver takes the data up and sends it to the engine in use. Unfortunately, this process is time-consuming and leads to a mentionable and rather reasonable delay in the visual representation. This delay can lead to cave sickness of the participant. Another issue is the calibration process, compare figure \ref{fig:optitrack} right. The marker design must be very elaborated and is the base for good tracking. OptiTrack must be calibrated with the Lighthouse of, the rigid body must be calibrated, then the Lighthouse must be switched on, and the pivot point of the HMD marker set mus to be calculated. In the end, the streaming of the data must be specified, and the Lighthouse must be switched off again. First, every step is a possible source of error. For a study considering accuracy, these are too many points of uncertainty. Secondly, this process is very time consuming because every step except the marker design must be conducted before every participant in the study.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{img/woven.jpg}
+	\caption{The marker set of the body (top and side) and the marker set of the HMD (at 3D printed mount) are too close to each other to be distinguished by OptiTrack.}
+	\label{fig:woven}
+\end{figure}
+Eventually, the marker sets of the body and marker sets of the HMD are woven into each other, compare figure \ref{fig:woven}, which is hard to distinguish for OptiTrack and though another source of error. For these reasons, OptiTrack is hardly usable for the task in question.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/optitrack_evaluation.png}
 	\caption{OptiTrack data flow and calibration process.}
 	\label{fig:optitrack}
 \end{figure}
-\ref{fig:viveTracker}
+
 \subsubsection{Vive Tracker}
+Vive Tracker are devices that utilise the Lighthouse which is also used to track the HMD, see next chapter for further details. This allows tracking points in the room. If these trackers are placed on a human body, the position and orientation of the body part can be digitalised and utilised in an engine. With Inverse Kinematics (see next chapter), these tracking points can be formed to a human body.\\
+Vive Trackers are very accurate, easy to set up and the most important point is that the Lighthouse natively supports them. Because of this, no coordinate system matching is necessary. Furthermore, they are reliable and not prone to noise. The tracking volume can be up to 110 $m^2$ depending on the number of base stations. Besides, they have the same low latency as the HMD, and the calibration process must only be conducted once and not before every participant. On the other hand, much more must be done by hand, see chapter \textit{Implementation}. Nevertheless, for the sake of the study and the above reasons, the Vive Trackers are used for this project.
 \begin{figure}
 	\centering
 	\includegraphics[width=1.0\textwidth]{img/vive_tracker_evaluation.png}
 	\caption{Vive Tracker data flow and calibration process.}
 	\label{fig:viveTracker}
 \end{figure}
-\subsection{Assets}
-baseplates, box, table
+
+\subsubsection{Vive Tracker 2}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/singleViveTracker.jpg}
+	\caption{Vive Tracker}
+	\label{fig:singleViveTracker}
+\end{figure}
+Vive Tracker 2, compare figure \ref{fig:viveTracker}, are star shaped elements, that utilise the Lighthouse to determine its position and orientation in the tracking volume. The Vive Tracker 2 transmits its data via Bluetooth. For each Vive Tracker a special dongle mus be plugged in the PC on a USB port. To mount the Vive Tracker on a human body comfortably, 3D printed mounts are used, compare figure \ref{fig:trackerMount}. On the back side Velcro tape is applied. Velcro holds perfectly on an OptiTrack suit. In future, special Vive Tracker straps can be used to make wearing the tracker more comfortable. The mounts are fixated by a M6 screw to the Vive Tracker.
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/trackerMount.jpg}
+	\caption{3D printed Vive Tracker Mounts with Velcro.}
+	\label{fig:trackerMount}
+\end{figure}
+
+\subsection{PC}
+The PC must be capable of handling the VR HMD. The main bottleneck is the graphics card. The used PCs graphic card is a GTX 2080. The PC must be connected to the HMD. Furthermore, the PC must provide enough USB Ports for HMD, periphery devices, one per Vive Tracker, but better not more than two per USB controller, compare section pitfalls.
+
+\subsection{Box \& Table}
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/box_table.jpg}
+	\caption{Box and table with Vive Tracker. Both shoes in the middle.}
+\end{figure}
+
+To conduct a study that includes physical load, a physical load prop must be designed. After several shapes and sizes were evaluated, the choice was made for a box with 27 x 21 x 21 cm. For developing a cardboard box was used. In addition, to make scenarios possible where the participant lifts the box up and down, a table is part of the setup. Both are tracked by a Vive Tracker, compare figure \ref{fig:box_table}.
+
+
 \section{Software}
-%unity vs. unreal, SteamVR, ik
+The choice of software is strongly bound to the hardware choice and less complex. The two main engines on the market to use are Unreal\footnote{\href{https://www.unrealengine.com/en-US/}{https://www.unrealengine.com/en-US/}} and Unity\footnote{\href{https://unity.com/}{https://unity.com/}}. Both are suitable, and the choice can be made out of personal preference. In my opinion, Unity is much more intuitive than Unreal, though the Unity Engine will be used.\\
+Because the choice was made for the Valve Index HMD, SteamVR is mandatory to use.\\
+For the Inverse Kinematics tool, the choice was also easy, Final IK\footnote{\href{https://assetstore.unity.com/packages/tools/animation/final-ik-14290}{https://assetstore.unity.com/packages/tools/animation/final-ik-14290}} is the most elaborated tool for the Unity engine.
+
+\subsection{Inverse Kinematics \& FinalIK}
+Inverse Kinematics emerged from the field of robotics. Imagine a robot arm tip needs to be at an exact point in a 3D space. Inverse Kinematics is the process to calculate the angles of the joints of the arm to match the endpoint of the arm with the desired point in space. Every joint has a minimum and maximum value and degrees of freedom. This process can also be utilised to visualise a human body. The end effectors are here the Vive Tracker located on a real human body. Inverse Kinematics calculate the angles of joints in between to render a person realistically. FinalIK is a Unity package providing this process.\\
+VRIK is a part of FinalIK with the focus of rendering human bodies for virtual reality. VRIK utilises 5 Vive Tracker: 2 on the feet, 1 one the hip and 2 on the hands. The HMD is the last reference point. Based on these 6 points, it solves the limbs of a human body and renders a humanoid character.
+
+\subsection{SteamVR Principles}
+SteamVR is a driver handling the connected Tracker, HMD and Controller. After a calibration, up to 16 devices can be added to one instance. In this case, these devices are 4x Lighthouse, 1x Valve Index HMD, 7x Vive Tracker and 1x controller. The driver provides the position and orientation to programs utilising this information. In this case, the Unity asset SteamVR access this information.
+
+\section{Study Setting Overview}
+The complete setup looks like depicted in figure \ref{fig:setup}. it consists of 
+
+\begin{itemize}
+	\item 4x Lighthouse 2
+	\item VR HMD: Valve Index
+	\item 7x Vive Tracker 2
+	\item 7x Vive Tracker mounts
+	\item PC (SteamVR, Unity, FinalIK)
+	\item OptiTrack suit
+	\item Table
+	\item Box
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=1.0\textwidth]{img/setup.png}
+	\caption{setup}
+	\label{fig:setup}
+\end{figure}

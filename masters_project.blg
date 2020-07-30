@@ -4,7 +4,6 @@ A level-1 auxiliary file: introduction.aux
 A level-1 auxiliary file: technologyEvaluation.aux
 A level-1 auxiliary file: implementation.aux
 A level-1 auxiliary file: outlook.aux
-A level-1 auxiliary file: conclusion.aux
 The style file: plain.bst
 Database file #1: bib/lit.bib
 Repeated entry---line 533 of file bib/lit.bib
@@ -29,4 +28,5 @@ Repeated entry---line 721 of file bib/lit.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in Chua
 Warning--empty year in Chua
+Warning--empty booktitle in Muckell2017
 (There were 5 error messages)

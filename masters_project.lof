@@ -1,24 +1,26 @@
 \addvspace {10pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces The four perspectives the system will be capable of. Human figure taken from thenounproject.com, accessed: 19.06.2020. Icon: created by Ghan Khoon Lay from Noun Project.}}{5}% 
+\contentsline {figure}{\numberline {1.1}{\ignorespaces The four perspectives the system is capable of. Human figure taken from thenounproject.com, accessed: 19.06.2020. Icon: created by Ghan Khoon Lay from Noun Project.}}{3}{figure.1.1}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Comparison of VR HMDs. Sources: developer.oculus.com/design/oculus-device-specs/, www.pimax.com/pages/pimax-8k-series, www.vive.com/eu/product/vive-pro/, www.valvesoftware.com/de/index/headset, all accessed: 19.06.2020 }}{8}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces OptiTrack data flow and calibration process.}}{10}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Vive Tracker data flow and calibration process.}}{10}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Valve Index}}{8}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Light House 2.0}}{9}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Comparison of VR HMDs. Sources: \href {https://developer.oculus.com/design/oculus-device-specs/}{https://developer.oculus.com/design/oculus-device-specs/}, \href {https://www.pimax.com/pages/pimax-8k-series}{https://www.pimax.com/pages/pimax-8k-series}, \href {https://www.vive.com/eu/product/vive-pro/}{https://www.vive.com/eu/product/vive-pro/}, \href {https://www.valvesoftware.com/de/index/headset}{https://www.valvesoftware.com/de/index/headset}, all accessed: 19.06.2020 }}{10}{figure.2.3}% 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Comparison of evaluated Motion Tracking technologies.}}{11}{figure.2.4}% 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The marker set of the body (top and side) and the marker set of the HMD (at 3D printed mount) are too close to each other to be distinguished by OptiTrack.}}{12}{figure.2.5}% 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces OptiTrack data flow and calibration process.}}{13}{figure.2.6}% 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Vive Tracker data flow and calibration process.}}{14}{figure.2.7}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Vive Tracker}}{14}{figure.2.8}% 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces 3D printed Vive Tracker Mounts with Velcro.}}{15}{figure.2.9}% 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Box and table with Vive Tracker. Both shoes in the middle.}}{16}{figure.2.10}% 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces setup}}{18}{figure.2.11}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces setup}}{13}% 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Light House 2.0}}{14}% 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Vive Tracker}}{15}% 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 3D printed Vive Tracker Mounts with Velcro.}}{16}% 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces OptiTrack Suit. Good for developing because of its Velcro surface.}}{17}% 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Box and table with Vive Tracker. Both shoes in the middle.}}{17}% 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces }}{18}% 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces }}{19}% 
-\contentsline {figure}{\numberline {3.9}{\ignorespaces }}{20}% 
-\contentsline {figure}{\numberline {3.10}{\ignorespaces }}{21}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces }}{21}% 
-\contentsline {figure}{\numberline {3.12}{\ignorespaces asset rendering pipeline}}{22}% 
-\contentsline {figure}{\numberline {3.13}{\ignorespaces asset rendering pipeline}}{23}% 
-\contentsline {figure}{\numberline {3.14}{\ignorespaces asset rendering pipeline}}{24}% 
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Teachers animation speed, linear interpolated. yxc add axis names}}{26}% 
-\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Vive Tracker matching. Left: reference holding all Objects to be transformed by a tracker, middle: device ID list, right script which reads the hardware IDs and sets the device IDs.}}{19}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces All elements and their relations to calibrate one student. The values of shifting and rotating the markers can be reused by other projects with an similar setup.}}{21}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces VRIK Calibration Controller. Sets the references necessary to calibrate the student.}}{22}{figure.3.3}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the tracker placed on the hip of a student till the visual representation.}}{23}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Top: data flow to generate the visual representation of a teacher. Bottom: Example of animating the hip of a teacher.}}{23}{figure.3.5}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Data flow to generate the visual representation of the box and the table.}}{24}{figure.3.6}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Left: setup of the recorder. GameObject that holds all points to record. Right: animated GameObject is used to steer a the teachers dummy.}}{25}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Calculating the height difference $\Delta y$ between the teacher and the student.}}{26}{figure.3.8}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Process of shifting the teacher into the student.}}{28}{figure.3.9}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Teachers animation speed, linear interpolated.}}{30}{figure.3.10}% 
 \addvspace {10pt}
