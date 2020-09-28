@@ -1,36 +1,46 @@
-\contentsline {chapter}{Contents}{i}{section*.1}% 
-\contentsline {chapter}{\chapternumberline {1}Introduction}{3}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}Introduction}{3}{section.1.1}% 
-\contentsline {chapter}{\chapternumberline {2}Technology Evaluation}{7}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Hardware}{7}{section.2.1}% 
-\contentsline {subsection}{Head Mounted Display}{7}{section*.3}% 
-\contentsline {subsubsection}{Lighthouse}{8}{section*.4}% 
-\contentsline {subsection}{Motion Tracking}{9}{section*.5}% 
-\contentsline {subsubsection}{Kinect}{11}{section*.6}% 
-\contentsline {subsubsection}{OptiTrack}{11}{section*.7}% 
-\contentsline {subsubsection}{Vive Tracker}{13}{section*.8}% 
-\contentsline {subsubsection}{Vive Tracker 2}{13}{section*.9}% 
-\contentsline {subsection}{PC}{15}{section*.10}% 
-\contentsline {subsection}{Box \& Table}{15}{section*.11}% 
-\contentsline {section}{\numberline {2.2}Software}{16}{section.2.2}% 
-\contentsline {subsection}{Inverse Kinematics \& FinalIK}{16}{section*.12}% 
-\contentsline {subsection}{SteamVR Principles}{17}{section*.13}% 
-\contentsline {section}{\numberline {2.3}Study Setting Overview}{17}{section.2.3}% 
-\contentsline {chapter}{\chapternumberline {3}Implementation}{19}{chapter.3}% 
-\contentsline {subsection}{Vive Tracker Matching}{19}{section*.14}% 
-\contentsline {subsection}{VRIK Calibration}{21}{section*.15}% 
-\contentsline {subsection}{Student Rendering}{22}{section*.16}% 
-\contentsline {subsection}{Teacher Rendering}{23}{section*.17}% 
-\contentsline {subsection}{Assets Rendering}{24}{section*.18}% 
-\contentsline {subsection}{Recording of Movements}{25}{section*.19}% 
-\contentsline {subsection}{Resize}{26}{section*.20}% 
+\contentsline {chapter}{Contents}{i}{section*.2}% 
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Perspectives}{3}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Task}{3}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Structure}{4}{section.1.4}% 
+\contentsline {chapter}{\chapternumberline {2}Technology Evaluation}{5}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Hardware}{5}{section.2.1}% 
+\contentsline {subsection}{Head Mounted Display}{5}{section*.3}% 
+\contentsline {subsubsection}{Lighthouse}{6}{section*.4}% 
+\contentsline {subsection}{Motion Tracking}{8}{section*.5}% 
+\contentsline {subsubsection}{Kinect}{9}{section*.6}% 
+\contentsline {subsubsection}{OptiTrack}{9}{section*.7}% 
+\contentsline {subsubsection}{Vive Tracker}{10}{section*.8}% 
+\contentsline {subsubsection}{Vive Tracker 2}{12}{section*.9}% 
+\contentsline {subsection}{PC}{13}{section*.10}% 
+\contentsline {subsection}{Box \& Table}{13}{section*.11}% 
+\contentsline {section}{\numberline {2.2}Software}{13}{section.2.2}% 
+\contentsline {subsection}{Inverse Kinematics \& FinalIK}{14}{section*.12}% 
+\contentsline {subsection}{SteamVR Principles}{14}{section*.13}% 
+\contentsline {section}{\numberline {2.3}Study Setting Overview}{15}{section.2.3}% 
+\contentsline {chapter}{\chapternumberline {3}Implementation}{17}{chapter.3}% 
+\contentsline {subsection}{Vive Tracker Matching}{17}{section*.14}% 
+\contentsline {subsection}{VRIK Calibration}{19}{section*.15}% 
+\contentsline {subsubsection}{Head}{20}{section*.16}% 
+\contentsline {subsubsection}{Hands}{21}{section*.17}% 
+\contentsline {subsubsection}{Feet}{21}{section*.18}% 
+\contentsline {subsubsection}{VRIK Callibration Controler}{21}{section*.19}% 
+\contentsline {subsection}{Student Rendering}{21}{section*.20}% 
+\contentsline {subsection}{Teacher Rendering}{22}{section*.21}% 
+\contentsline {subsection}{Assets Rendering}{25}{section*.22}% 
+\contentsline {subsection}{Recording of Movements}{25}{section*.23}% 
+\contentsline {subsection}{Resize}{26}{section*.24}% 
 \contentsline {section}{\numberline {3.1}Visual Perspectives}{27}{section.3.1}% 
-\contentsline {subsection}{Ego-Centric}{27}{section*.21}% 
-\contentsline {subsection}{Exo-Centric}{30}{section*.22}% 
-\contentsline {subsection}{Ego-Centric \& Exo-Centric}{31}{section*.23}% 
-\contentsline {subsection}{Augmented Exo-Centric}{32}{section*.24}% 
-\contentsline {chapter}{\chapternumberline {4}Outlook}{33}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Upcoming Tasks}{33}{section.4.1}% 
-\contentsline {section}{\numberline {4.2}Evaluation}{33}{section.4.2}% 
-\contentsline {chapter}{Bibliography}{35}{chapter*.25}% 
-\contentsline {chapter}{List of Figures}{37}{section*.26}% 
+\contentsline {subsection}{Ego-Centric}{28}{section*.25}% 
+\contentsline {subsection}{Exo-Centric}{30}{section*.26}% 
+\contentsline {subsection}{Ego-Centric \& Exo-Centric}{32}{section*.27}% 
+\contentsline {subsection}{Augmented Exo-Centric}{32}{section*.28}% 
+\contentsline {section}{\numberline {3.2}Limitations: Perspectives and Mechanics}{32}{section.3.2}% 
+\contentsline {chapter}{\chapternumberline {4}Outlook}{35}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Upcoming Tasks}{35}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Evaluation}{35}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Schedule}{36}{section.4.3}% 
+\contentsline {chapter}{Bibliography}{37}{chapter*.29}% 
+\contentsline {chapter}{List of Figures}{40}{section*.30}% 
+\contentsline {chapter}{List of Tables}{41}{section*.31}% 

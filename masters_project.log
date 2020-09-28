@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.4)  30 JUL 2020 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7050 64-bit) (preloaded format=pdflatex 2019.7.4)  28 SEP 2020 22:47
 entering extended mode
 **./masters_project.tex
 (masters_project.tex
@@ -924,6 +924,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip189
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\rotating.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count191
+\rotFPtop=\skip190
+\rotFPbot=\skip191
+\rot@float@box=\box54
+\rot@mess@toks=\toks50
+)
 
 LaTeX Warning: Unused global option(s):
     [titlepage].
@@ -932,34 +944,34 @@ LaTeX Warning: Unused global option(s):
 (technologyEvaluation.aux) (implementation.aux) (outlook.aux))
 \openout1 = `masters_project.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
 
 (C:\Users\stefa\AppData\Roaming\MiKTeX\2.9\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count191
+\scratchcounter=\count192
 \scratchdimen=\dimen279
-\scratchbox=\box54
-\nofMPsegments=\count192
-\nofMParguments=\count193
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count194
+\scratchbox=\box55
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count266
 \MPscratchDim=\dimen280
-\MPnumerator=\count266
-\makeMPintoPDFobject=\count267
-\everyMPtoPDFconversion=\toks51
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks52
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1008,364 +1020,372 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count268
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 31.
+\c@lstlisting=\count269
+\AtBeginShipoutBox=\box56
+Package hyperref Info: Link coloring OFF on input line 35.
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count269
+\c@section@level=\count270
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 31.
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 35.
+LaTeX Info: Redefining \pageref on input line 35.
+LaTeX Info: Redefining \nameref on input line 35.
 (masters_project.out) (masters_project.out)
 \@outlinefile=\write7
 \openout7 = `masters_project.out'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 33.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <20.74> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
-LaTeX Font Info:    Try loading font information for U+msa on input line 33.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 33.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/stefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-] (masters_project.toc)
-[1] [2
-
-]
+{C:/Users/stefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 \openout2 = `abstract.aux'.
 
- (abstract.tex
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 	\include{abstract}
-                         [1
+ (abstract.tex [2
 
+
+]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
+) [3]
+[4
+
+
+] (masters_project.toc) [1] [2
 
 ]
 \openout2 = `introduction.aux'.
 
  (introduction.texpdfTeX warning (ext4): destination with the same identifier (
-name{page.2}) has been already used, duplicate ignored
+name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Introduction} [2
-
+l.14 	\item
+            Serial movements: sequence of discrete movements, best suited fo...
+[1
 
 
 ]
-<img/perspectives.PNG, id=105, 948.1824pt x 436.029pt>
+<img/perspectives.PNG, id=200, 948.1824pt x 436.029pt>
 File: img/perspectives.PNG Graphic file (type png)
 <use img/perspectives.PNG>
-Package pdftex.def Info: img/perspectives.PNG  used on input line 6.
+Package pdftex.def Info: img/perspectives.PNG  used on input line 37.
 (pdftex.def)             Requested size: 418.25368pt x 192.33904pt.
- [3 <./img/perspectives.PNG>] [4]) [5]
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 
+      [2]pdfTeX warning (ext4): destination with the same identifier (name{page
+.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 
+      [3 <./img/perspectives.PNG>]pdfTeX warning (ext4): destination with the s
+ame identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \clearpage
+                [4])
 \openout2 = `technologyEvaluation.aux'.
 
+ (technologyEvaluation.tex
+<img/hmdComparison.png, id=217, 966.9726pt x 309.3156pt>
+File: img/hmdComparison.png Graphic file (type png)
+<use img/hmdComparison.png>
+Package pdftex.def Info: img/hmdComparison.png  used on input line 9.
+(pdftex.def)             Requested size: 418.25368pt x 133.7913pt.
+<img/hmd.jpg, id=229, 2605.48407pt x 1723.1878pt>
+File: img/hmd.jpg Graphic file (type jpg)
+<use img/hmd.jpg>
+Package pdftex.def Info: img/hmd.jpg  used on input line 19.
+(pdftex.def)             Requested size: 334.60422pt x 221.28773pt.
+ [5
 
-(technologyEvaluation.tex [6
 
 
 
 ]
-<img/hmd.jpg, id=177, 4047.12pt x 3035.34pt>
-File: img/hmd.jpg Graphic file (type jpg)
-<use img/hmd.jpg>
-Package pdftex.def Info: img/hmd.jpg  used on input line 9.
-(pdftex.def)             Requested size: 418.25368pt x 313.64856pt.
- [7]
-<img/lh.jpg, id=183, 803.0pt x 446.66875pt>
+<img/lh.jpg, id=235, 803.0pt x 446.66875pt>
 File: img/lh.jpg Graphic file (type jpg)
 <use img/lh.jpg>
-Package pdftex.def Info: img/lh.jpg  used on input line 17.
+Package pdftex.def Info: img/lh.jpg  used on input line 28.
 (pdftex.def)             Requested size: 418.25368pt x 232.65756pt.
- [8 <./img/hmd.jpg>]
-<img/hmdComparison.png, id=194, 966.9726pt x 309.3156pt>
-File: img/hmdComparison.png Graphic file (type png)
-<use img/hmdComparison.png>
-Package pdftex.def Info: img/hmdComparison.png  used on input line 28.
-(pdftex.def)             Requested size: 418.25368pt x 133.7913pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]\OT1/cmr/m/n/12 Figure 2.3: []Comparison of VR HMDs. Sources:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]\OT1/cmr/m/n/12 https://developer.oculus.com/design/oculus-device-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\OT1/cmr/m/n/12 specs/[], []https://www.pimax.com/pages/pimax-8k-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-\OT1/cmr/m/n/12 series[], []https://www.vive.com/eu/product/vive-pro/[],
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+ [6 <./img/hmdComparison.png>] [7 <./img/hmd.jpg> <./img/lh.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[9 <./img/lh.jpg>]
-<img/motion_tracking_comparison.png, id=215, 966.9726pt x 306.4248pt>
+<img/motion_tracking_comparison.png, id=260, 966.9726pt x 306.4248pt>
 File: img/motion_tracking_comparison.png Graphic file (type png)
 <use img/motion_tracking_comparison.png>
 Package pdftex.def Info: img/motion_tracking_comparison.png  used on input line
- 50.
+ 55.
 (pdftex.def)             Requested size: 418.25368pt x 132.54092pt.
- [10 <./img/hmdComparison.png>]
-<img/woven.jpg, id=231, 600.3228pt x 542.9886pt>
+[8]
+<img/woven.jpg, id=276, 600.3228pt x 542.9886pt>
 File: img/woven.jpg Graphic file (type jpg)
 <use img/woven.jpg>
-Package pdftex.def Info: img/woven.jpg  used on input line 63.
+Package pdftex.def Info: img/woven.jpg  used on input line 68.
 (pdftex.def)             Requested size: 209.12683pt x 189.15404pt.
-<img/optitrack_evaluation.png, id=233, 897.5934pt x 420.6114pt>
+<img/optitrack_evaluation.png, id=278, 897.5934pt x 420.6114pt>
 File: img/optitrack_evaluation.png Graphic file (type png)
 <use img/optitrack_evaluation.png>
-Package pdftex.def Info: img/optitrack_evaluation.png  used on input line 70.
+Package pdftex.def Info: img/optitrack_evaluation.png  used on input line 75.
 (pdftex.def)             Requested size: 418.25368pt x 195.99945pt.
- [11 <./img/motion_tracking_comparison.png>]
-<img/vive_tracker_evaluation.png, id=244, 813.7602pt x 386.4036pt>
+ [9 <./img/motion_tracking_comparison.png>]
+<img/vive_tracker_evaluation.png, id=289, 834.9594pt x 386.4036pt>
 File: img/vive_tracker_evaluation.png Graphic file (type png)
 <use img/vive_tracker_evaluation.png>
-Package pdftex.def Info: img/vive_tracker_evaluation.png  used on input line 80
+Package pdftex.def Info: img/vive_tracker_evaluation.png  used on input line 85
 .
-(pdftex.def)             Requested size: 418.25368pt x 198.60208pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [12 <./img/woven.jpg>]
-<img/singleViveTracker.jpg, id=250, 4625.28pt x 2601.72pt>
+(pdftex.def)             Requested size: 418.25368pt x 193.56097pt.
+ [10] [11 <./img/woven.jpg> <./img/optitrack_evaluation.png>]
+<img/singleViveTracker.jpg, id=303, 4625.28pt x 2601.72pt>
 File: img/singleViveTracker.jpg Graphic file (type jpg)
 <use img/singleViveTracker.jpg>
-Package pdftex.def Info: img/singleViveTracker.jpg  used on input line 88.
-(pdftex.def)             Requested size: 418.25368pt x 235.25627pt.
-<img/trackerMount.jpg, id=253, 4046.11626pt x 1695.33376pt>
+Package pdftex.def Info: img/singleViveTracker.jpg  used on input line 93.
+(pdftex.def)             Requested size: 204.9466pt x 115.24619pt.
+<img/trackerMount.jpg, id=304, 4046.11626pt x 1695.33376pt>
 File: img/trackerMount.jpg Graphic file (type jpg)
 <use img/trackerMount.jpg>
-Package pdftex.def Info: img/trackerMount.jpg  used on input line 95.
-(pdftex.def)             Requested size: 418.25368pt x 175.2344pt.
- [13 <./img/optitrack_evaluation.png>] [14 <./img/vive_tracker_evaluation.png> 
-<./img/singleViveTracker.jpg>]
-<img/box_table.jpg, id=270, 4625.28pt x 2601.72pt>
+Package pdftex.def Info: img/trackerMount.jpg  used on input line 94.
+(pdftex.def)             Requested size: 204.9466pt x 85.85814pt.
+ [12 <./img/vive_tracker_evaluation.png> <./img/singleViveTracker.jpg> <./img/t
+rackerMount.jpg>]
+<img/box_evaluation.jpg, id=315, 4047.12pt x 2276.505pt>
+File: img/box_evaluation.jpg Graphic file (type jpg)
+<use img/box_evaluation.jpg>
+Package pdftex.def Info: img/box_evaluation.jpg  used on input line 107.
+(pdftex.def)             Requested size: 204.9466pt x 115.25612pt.
+<img/box_table.jpg, id=316, 4625.28pt x 2601.72pt>
 File: img/box_table.jpg Graphic file (type jpg)
 <use img/box_table.jpg>
-Package pdftex.def Info: img/box_table.jpg  used on input line 106.
-(pdftex.def)             Requested size: 418.25368pt x 235.25627pt.
+Package pdftex.def Info: img/box_table.jpg  used on input line 108.
+(pdftex.def)             Requested size: 204.9466pt x 115.24619pt.
 
 
-LaTeX Warning: Reference `fig:box_table' on page 15 undefined on input line 110
+LaTeX Warning: Reference `props' on page 13 undefined on input line 113.
+
+
+LaTeX Warning: Reference `fig:box_table' on page 13 undefined on input line 113
 .
 
+[13 <./img/box_evaluation.jpg> <./img/box_table.jpg>]
+Underfull \vbox (badness 6252) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./img/trackerMount.jpg>] [16 <./img/box_table.jpg>]
-<img/setup.png, id=294, 968.418pt x 547.3248pt>
+ [14]
+<img/setup.png, id=345, 968.418pt x 547.3248pt>
 File: img/setup.png Graphic file (type png)
 <use img/setup.png>
-Package pdftex.def Info: img/setup.png  used on input line 141.
+Package pdftex.def Info: img/setup.png  used on input line 142.
 (pdftex.def)             Requested size: 418.25368pt x 236.38066pt.
-) [17] [18 <./img/setup.png>]
+)
+[15] [16 <./img/setup.png>]
 \openout2 = `implementation.aux'.
 
-
-(implementation.tex
-<img/viveTrackerMatching.png, id=306, 877.3578pt x 266.4354pt>
+ (implementation.tex
+<img/viveTrackerMatching.png, id=356, 877.3578pt x 266.4354pt>
 File: img/viveTrackerMatching.png Graphic file (type png)
 <use img/viveTrackerMatching.png>
-Package pdftex.def Info: img/viveTrackerMatching.png  used on input line 6.
-(pdftex.def)             Requested size: 418.25368pt x 127.01346pt.
- [19
+Package pdftex.def Info: img/viveTrackerMatching.png  used on input line 8.
+(pdftex.def)             Requested size: 591.5302pt x 179.64098pt.
+ [17
 
 
 
- <./img/viveTrackerMatching.png>]
+] [18 <./img/viveTrackerMatching.png>]
 (C:\Users\stefa\AppData\Roaming\MiKTeX\2.9\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 23.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 25.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 23.
-<img/student_calibration.png, id=315, 909.6384pt x 537.207pt>
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 25.
+<img/student_calibration.png, id=369, 909.6384pt x 537.207pt>
 File: img/student_calibration.png Graphic file (type png)
 <use img/student_calibration.png>
-Package pdftex.def Info: img/student_calibration.png  used on input line 56.
+Package pdftex.def Info: img/student_calibration.png  used on input line 59.
 (pdftex.def)             Requested size: 418.25368pt x 247.01166pt.
-<img/calibration_controller.PNG, id=318, 335.75438pt x 158.84344pt>
-File: img/calibration_controller.PNG Graphic file (type png)
-<use img/calibration_controller.PNG>
-Package pdftex.def Info: img/calibration_controller.PNG  used on input line 67.
-
-(pdftex.def)             Requested size: 418.25368pt x 197.87515pt.
-
+ [19]
 Underfull \vbox (badness 1917) has occurred while \output is active []
 
- [20]
-Underfull \vbox (badness 6876) has occurred while \output is active []
+ [20 <./img/student_calibration.png>]
+<img/calibration_controller.PNG, id=414, 335.75438pt x 158.84344pt>
+File: img/calibration_controller.PNG Graphic file (type png)
+<use img/calibration_controller.PNG>
+Package pdftex.def Info: img/calibration_controller.PNG  used on input line 75.
 
- [21 <./img/student_calibration.png>]
-<img/student_rendering_pipeline.png, id=360, 946.737pt x 383.031pt>
+(pdftex.def)             Requested size: 418.25368pt x 197.87515pt.
+<img/student_rendering_pipeline.png, id=415, 946.737pt x 383.031pt>
 File: img/student_rendering_pipeline.png Graphic file (type png)
 <use img/student_rendering_pipeline.png>
 Package pdftex.def Info: img/student_rendering_pipeline.png  used on input line
- 75.
-(pdftex.def)             Requested size: 418.25368pt x 169.21797pt.
-
-
-LaTeX Warning: Reference `student_rendering_pipeline' on page 22 undefined on i
-nput line 80.
-
-<img/teacher_rendering_pipeline.png, id=361, 952.5186pt x 387.849pt>
+ 84.
+(pdftex.def)             Requested size: 591.5302pt x 239.32948pt.
+<img/teacher_rendering_pipeline.png, id=417, 952.5186pt x 387.849pt>
 File: img/teacher_rendering_pipeline.png Graphic file (type png)
 <use img/teacher_rendering_pipeline.png>
 Package pdftex.def Info: img/teacher_rendering_pipeline.png  used on input line
- 84.
-(pdftex.def)             Requested size: 418.25368pt x 170.3049pt.
-[22 <./img/calibration_controller.PNG>] [23 <./img/student_rendering_pipeline.p
-ng> <./img/teacher_rendering_pipeline.png>]
-<img/assets_rendering_pipeline.png, id=379, 701.9826pt x 363.2772pt>
+ 94.
+(pdftex.def)             Requested size: 591.5302pt x 240.8604pt.
+ [21]
+<img/assets_rendering_pipeline.png, id=430, 701.9826pt x 363.2772pt>
 File: img/assets_rendering_pipeline.png Graphic file (type png)
 <use img/assets_rendering_pipeline.png>
 Package pdftex.def Info: img/assets_rendering_pipeline.png  used on input line 
-95.
+105.
 (pdftex.def)             Requested size: 418.25368pt x 216.44917pt.
- [24 <./img/assets_rendering_pipeline.png>]
-<img/record-animate.png, id=389, 720.7728pt x 426.8748pt>
-File: img/record-animate.png Graphic file (type png)
-<use img/record-animate.png>
-Package pdftex.def Info: img/record-animate.png  used on input line 104.
-(pdftex.def)             Requested size: 418.25368pt x 247.7113pt.
-<img/resize.png, id=390, 540.5796pt x 335.8146pt>
-File: img/resize.png Graphic file (type png)
-<use img/resize.png>
-Package pdftex.def Info: img/resize.png  used on input line 112.
-(pdftex.def)             Requested size: 418.25368pt x 259.82832pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25 <./img/record-animate.png>] [26 <./img/resize.png>]
-<img/continuumShift.png, id=405, 481.8pt x 196.5744pt>
+ [22 <./img/calibration_controller.PNG>] [23 <./img/student_rendering_pipeline.
+png>]
+[24 <./img/teacher_rendering_pipeline.png>]
+<img/record-animate.png, id=450, 720.7728pt x 426.8748pt>
+File: img/record-animate.png Graphic file (type png)
+<use img/record-animate.png>
+Package pdftex.def Info: img/record-animate.png  used on input line 114.
+(pdftex.def)             Requested size: 418.25368pt x 247.7113pt.
+ [25 <./img/assets_rendering_pipeline.png>]
+<img/resize.png, id=461, 540.5796pt x 335.8146pt>
+File: img/resize.png Graphic file (type png)
+<use img/resize.png>
+Package pdftex.def Info: img/resize.png  used on input line 124.
+(pdftex.def)             Requested size: 418.25368pt x 259.82832pt.
+ [26 <./img/record-animate.png>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
+<img/continuumShift.png, id=470, 481.8pt x 196.5744pt>
 File: img/continuumShift.png Graphic file (type png)
 <use img/continuumShift.png>
-Package pdftex.def Info: img/continuumShift.png  used on input line 122.
+Package pdftex.def Info: img/continuumShift.png  used on input line 136.
 (pdftex.def)             Requested size: 418.25368pt x 170.6524pt.
-<img/rootTransform.png, id=410, 805.0878pt x 412.9026pt>
+ [27 <./img/resize.png>]
+<img/rootTransform.png, id=484, 805.0878pt x 412.9026pt>
 File: img/rootTransform.png Graphic file (type png)
 <use img/rootTransform.png>
-Package pdftex.def Info: img/rootTransform.png  used on input line 131.
+Package pdftex.def Info: img/rootTransform.png  used on input line 145.
 (pdftex.def)             Requested size: 418.25368pt x 214.50897pt.
- [27 <./img/continuumShift.png>]
+ [28 <./img/continuumShift.png>]
 Underfull \vbox (badness 2865) has occurred while \output is active []
 
- [28 <./img/rootTransform.png>] [29]
-<img/teachers_animation_speed_chart.png, id=432, 361.35pt x 216.3282pt>
+ [29 <./img/rootTransform.png>]
+<img/teachers_animation_speed_chart.png, id=502, 361.35pt x 216.3282pt>
 File: img/teachers_animation_speed_chart.png Graphic file (type png)
 <use img/teachers_animation_speed_chart.png>
 Package pdftex.def Info: img/teachers_animation_speed_chart.png  used on input 
-line 163.
+line 177.
 (pdftex.def)             Requested size: 418.25368pt x 250.39622pt.
- [30] [31 <./img/teachers_animation_speed_chart.png>])
-[32]
+ [30] [31 <./img/teachers_animation_speed_chart.png>]
+
+LaTeX Warning: Reference `fig:mechanic' on page 32 undefined on input line 200.
+
+
+<img/mechanics.png, id=542, 590.205pt x 227.4096pt>
+File: img/mechanics.png Graphic file (type png)
+<use img/mechanics.png>
+Package pdftex.def Info: img/mechanics.png  used on input line 205.
+(pdftex.def)             Requested size: 418.25368pt x 161.16005pt.
+) [32] [33 <./img/mechanics.png>]
 \openout2 = `outlook.aux'.
 
- (outlook.tex) [33
+ (outlook.tex [34
 
 
 
-] [34
+])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-] (masters_project.bbl
+ [35]
+[36] (masters_project.bbl
 bibitemlist
-[35
+[37
 
-] [36]) (masters_project.lof
-Overfull \hbox (52.59392pt too wide) in paragraph at lines 6--6
- [][] [][]\OT1/cmr/m/n/12 Comparison of VR HMDs. Sources: []https://developer.o
-culus.com/design/oculus- 
+
+
+] [38]) (masters_project.lof
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40])
+(masters_project.lot
+Overfull \hbox (30.20006pt too wide) in paragraph at lines 3--3
+ \OT1/cmr/m/n/12 8k-series[], []https:// www.vive.com/ eu/product/vive-pro/[], 
+[]https:// www.valve 
  []
 
-
-Overfull \hbox (173.02635pt too wide) in paragraph at lines 6--6
- \OT1/cmr/m/n/12 device-specs/[], []https://www.pimax.com/pages/pimax-8k-series
-[], []https://www.vive.com/eu/product/vive- 
- []
-
-[37]) [38]
+) [41]
 \tf@toc=\write8
 \openout8 = `masters_project.toc'.
 
 \tf@lof=\write9
 \openout9 = `masters_project.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+\tf@lot=\write10
+\openout10 = `masters_project.lot'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
  (masters_project.aux (abstract.aux) (introduction.aux)
 (technologyEvaluation.aux) (implementation.aux) (outlook.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 48.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `masters_project.out' has not changed.
-(rerunfilecheck)             Checksum: 7121A5376ED0376B5F360C8BDD012408;773.
+(rerunfilecheck)             Checksum: 1932C11ECBE20EEB484CA33F6F108E4A;1138.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 22032 strings out of 492895
- 383810 string characters out of 3133480
- 699866 words of memory out of 3000000
- 25373 multiletter control sequences out of 15000+200000
+ 22195 strings out of 492895
+ 385994 string characters out of 3133480
+ 700623 words of memory out of 3000000
+ 25504 multiletter control sequences out of 15000+200000
  15570 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,73p,2107b,1369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,12n,73p,2141b,1369s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-msl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on masters_project.pdf (42 pages, 7689897 bytes).
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on masters_project.pdf (47 pages, 9342633 bytes).
 PDF statistics:
- 626 PDF objects out of 1000 (max. 8388607)
- 182 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 724 PDF objects out of 1000 (max. 8388607)
+ 203 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

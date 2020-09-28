@@ -15,27 +15,36 @@
 \usepackage{listings}
 \usepackage{hyperref}
 \chapterstyle{section}
+\usepackage{rotating}
 %\setcounter{chapter}{+1}
 %\counterwithout{section}{chapter}
 
 \title{E(x\textbar g)o: Comparing Visual Perspectives on Guidance Visualisations for Motor Learning in Virtual Reality}
 \author{Stefan Paul Feyer\\
-	\textit{HCI Group, University of Konstanz}
+	\textit{HCI Group, University of Konstanz, 01/725883}
 	\and
 	Maximilian Dürr\\
 	\textit{Supervisor}
+	\and
+	Prof. Dr. Harald Reiterer\\
+	\textit{Reviewer}
 }
-\date{Master's Project Report\\March 2020}
+\date{Master's Project Report\\1.10.2020}
 
 
 \begin{document}
+
 	\maketitle
+	\thispagestyle{empty}
+	\include{abstract}
+	
+	
 	
 	%\reversemarginpar%maring left
 	\frontmatter
 	\tableofcontents
 	\mainmatter
-	\include{abstract}
+	
 	\include{introduction}
 	\include{technologyEvaluation}
 	\include{implementation}
@@ -44,5 +53,5 @@
 	\bibliography{bib/lit}
 	\bibliographystyle{plain}
 	\listoffigures
-%	\listoftables
+	\listoftables
 \end{document}

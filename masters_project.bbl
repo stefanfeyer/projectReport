@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{Anderson2013}
+Fraser Anderson, Tovi Grossman, Justin Matejka, and George Fitzmaurice.
+\newblock {YouMove : Enhancing Movement Training with an Augmented Reality
+  Mirror}.
+\newblock pages 311--320, 2013.
+
 \bibitem{Chan2010}
 J~C~P Chan, H~Leung, J~K~T Tang, and T~Komura.
 \newblock {A Virtual Reality Dance Training System Using Motion Capture
@@ -135,6 +141,11 @@ Eduardo Velloso, Andreas Bulling, and Hans Gellersen.
 \newblock {MotionMA: Motion Modelling and Analysis by Demonstration}.
 \newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
   Computing Systems}, CHI '13, pages 1309--1318, New York, NY, USA, 2013. ACM.
+
+\bibitem{Weber2018}
+Rebecca Weber.
+\newblock {Egocentric Motion Guidance in Mixed Reality - A comparison of
+  visualizations guiding bilateral arm movements}, 2018.
 
 \bibitem{Yan2015}
 Shuo Yan, Gangyi Ding, Zheng Guan, Ningxiao Sun, Hongsong Li, and Longfei
