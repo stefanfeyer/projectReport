@@ -8,9 +8,9 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Vive Tracker data flow and calibration process.}}{12}{figure.2.5}% 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Left: Vive Tracker. Right: 3D printed Vive Tracker Mounts with Velcro.}}{12}{figure.2.6}% 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Left: evaluation of different box shapes and sizes. Right: Box and table with Vive Tracker. Both shoes with Vive Tracker in the middle.}}{13}{figure.2.7}% 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Study setup. Shows the interplay of hard and software components.}}{16}{figure.2.8}% 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Study setup; shows the interplay of hard and software components.}}{16}{figure.2.8}% 
 \addvspace {10pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Vive Tracker matching. Left: reference holding all Objects to be transformed by a tracker, middle: device ID list, right script which reads the hardware IDs and sets the device IDs.}}{18}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Vive Tracker matching. Left: reference holding all Objects to be transformed by a tracker, middle: device ID list, right: script which reads the hardware IDs and sets the device IDs.}}{18}{figure.3.1}% 
 \contentsline {figure}{\numberline {3.2}{\ignorespaces All elements and their relations to calibrate one student. Other projects with a similar setup can reuse the values of shifting and rotating the markers}}{20}{figure.3.2}% 
 \contentsline {figure}{\numberline {3.3}{\ignorespaces VRIK Calibration Controller. Sets the references necessary to calibrate the student.}}{22}{figure.3.3}% 
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Top: data flow to generate the visual representation of a student. Bottom: Example of data flow from the Tracker placed on the hip of a student until the visual representation.}}{23}{figure.3.4}% 
@@ -20,5 +20,5 @@
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Calculating the height difference of $\Delta y$ between the teacher and the student.}}{27}{figure.3.8}% 
 \contentsline {figure}{\numberline {3.9}{\ignorespaces Continuum of perspectives according to Milgram \cite {Milgram1994}. The red arrow indicates the shift towards the exo-centric perspective.}}{28}{figure.3.9}% 
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Process of shifting the teacher into the student.}}{29}{figure.3.10}% 
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Teachers animation speed, linear interpolated.}}{31}{figure.3.11}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Teachers animation speed, linearly interpolated.}}{31}{figure.3.11}% 
 \addvspace {10pt}
